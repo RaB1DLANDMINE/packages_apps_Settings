@@ -1,0 +1,26 @@
+# Bug component: 27091
+# Use this reviewer by default.
+android-settings-core-eng+gerrit@google.com
+
+# Android Settings Core
+cechkahn@google.com
+chiujason@google.com
+dswliu@google.com
+edgarwang@google.com
+millchen@google.com
+smaftei@google.com
+sunnyshao@google.com
+
+# Android Settings extended
+jiannan@google.com #{LAST_RESORT_SUGGESTION}
+zhibinliu@google.com
+
+# Catalyst & app functions
+kholoudm@google.com
+scottjonathan@google.com
+
+# Emergency only
+cipson@google.com
+
+# Exempt resource files (because they are in a flat directory and too hard to manage via OWNERS)
+per-file res*/**=*

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yap</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Görüntü Motoru</string>
+    <string name="display_engine_mode_title">Gerçeklik Görüntü Motoru</string>
+    <string name="x_reality_engine_mode_title">X-Reality Motoru</string>
+    <string name="triluminous_display_mode_title">Triluminos Ekran</string>
+    <string name="vivid_engine_mode_title">Canlı Ekran</string>
+    <string name="display_engine_default">Varsayılan</string>
+    <string name="display_engine_mode_footer_text">Sony\'nin Bravia/X-Reality motorundan esinlenen Görüntü Motoru, gelişmiş parlaklık ve renk doygunluğu için Canlı mod ve gelişmiş detay ve renk doğruluğu için X-Reality modu özelliklerine sahiptir.</string>
+   
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Çift dokunma</string>
+    <string name="doze_double_tap_title">Telefonu kontrol etmek için çift dokunun</string>
+    <string name="doze_double_tap_summary">Bildirimleri çift dokunarak göster</string>
+
+    <!-- About phone -->
+    <string name="text_processor">İşlemci</string>
+    <string name="text_display">Ekran</string>
+    <string name="text_battery">Pil</string>
+    <string name="text_camera">Kamera</string>
+    <string name="text_ram_">RAM:</string>
+    <string name="text_rom_">ROM:</string>
+    <string name="text_maintainer">Geliştirici</string>
+    <string name="text_kernel_version">Çekirdek</string>
+    <string name="official_build_suffix">- Resmi</string>
+    <string name="unofficial_build_suffix">- Resmi Olmayan</string>
+    <string name="ram_active_label">Aktif</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Gününüze olumlu başlayın!</string>
+      <string name="dashboard_morning2">Güneş doğdu!</string>
+      <string name="dashboard_morning3">Güzel bir sabah</string>
+      <string name="dashboard_morning4">Yaşamak için başka bir gün!</string>
+      <string name="dashboard_morning5">Yeni bir gün</string>
+      <string name="dashboard_morning_greeting1">Günaydın</string>
+      <string name="dashboard_morning_greeting2">İyi günler</string>
+      <string name="dashboard_noon1">Hayatınızı yaşayın!</string>
+      <string name="dashboard_noon2">Gün batımının tadını çıkarın</string>
+      <string name="dashboard_noon3">Eve hoş geldiniz</string>
+      <string name="dashboard_noon4">Günün tadını çıkarın!</string>
+      <string name="dashboard_noon5">Tekrar hoş geldiniz</string>
+      <string name="dashboard_noon_greeting1">Tünaydın</string>
+      <string name="dashboard_early_night1">Gece geliyor!</string>
+      <string name="dashboard_early_night2">Akşam yemeği zamanı!</string>
+      <string name="dashboard_early_night_greeting1">İyi akşamlar</string>
+      <string name="dashboard_night3">Tatlı rüyalar!</string>
+      <string name="dashboard_night4">Şimdi uyuma zamanı!</string>
+      <string name="dashboard_night5">İyi uykular!</string>
+      <string name="dashboard_night_greetings1">İyi geceler</string>
+      <string name="dashboard_midnight1">Sessizliğin tadını çıkarın</string>
+      <string name="dashboard_midnight2">Sonsuz Sevgi!</string>
+      <string name="dashboard_midnight3">Biraz uyuyun</string>
+      <string name="dashboard_midnight4">Dinlenin</string>
+      <string name="dashboard_midnight5">Geç mi uyuyorsunuz?</string>
+      <string name="dashboard_random1">Merhaba         </string>
+      <string name="dashboard_random2">Selam       </string>
+      <string name="dashboard_random3">Selamlar     </string>
+      <string name="dashboard_random4">İyi günler    </string>
+      <string name="dashboard_random5">Hoş geldiniz     </string>
+      <string name="dashboard_random6">Naber  </string>
+      <string name="dashboard_random_greetings1">Bazı sürpriz yumurtalar bulmaya çalışın!</string>
+      <string name="dashboard_random_greetings2">Sonsuz Olun!</string>
+      <string name="dashboard_random_greetings3">Infinity\'yi keşfettiniz mi?</string>
+      <string name="dashboard_random_greetings4">Gününüzü iyi değerlendirin!</string>
+      <string name="settings_random1">Bir şey mi arıyorsunuz?</string>
+      <string name="settings_random2">Ara ve göreceksin</string>
+      <string name="settings_random3">Ara ve bulacaksın</string>
+      <string name="settings_random4">Sonsuzluğu Ara</string>
+      <string name="settings_random5">Ayarları ara</string>
+      <string name="settings_random6">Büyük hayaller kurun ve başarısız olmaktan korkmayın!</string>
+      <string name="default_user">Kullanıcı</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Infinity Paketi</string>
+     <string name="infinity_suite_summary">Cihazınızı daha da kişiselleştirin</string>
+
+    <string name="gms_services_title">Google hizmetleri</string>
+    <string name="gms_services_summary">Google hizmetleri ve tercihleri</string>
+    <string name="wellbeing_title">Dijital refah</string>
+    <string name="wellbeing_summary">Dijital refah ve ebeveyn kontrolleri</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Uyku Modu</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Kapalı / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Zil modu</string>
+    <string name="sleep_mode_ringer_off_title">Değiştirme</string>
+    <string name="sleep_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="sleep_mode_ringer_dnd_title">Rahatsız Etmeyin</string>
+    <string name="sleep_mode_ringer_silent_title">Sessiz</string>
+    <string name="sleep_mode_schedule_sunset">Gün batımı</string>
+    <string name="sleep_mode_schedule_sunrise">Gün doğumu</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından özel bir saate kadar açılır</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Özel bir saatten gün doğumuna kadar açılır</string>
+    <string name="sleep_mode_toggles_title">Anahtarlar</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
+    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıkken Wi-Fi\'yi devre dışı bırak</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth\'u kapat</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıkken Bluetooth\'u devre dışı bırak</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil veriyi kapat</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıkken Mobil veriyi devre dışı bırak</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıkken Konumu devre dışı bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri kapat</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıkken Sensörleri devre dışı bırak</string>
+    <string name="sleep_mode_display_text">Uyku modu, uyurken pil tasarrufu yapmanıza ve telefonunuzu sessize almanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Şimdi aç</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Şimdi kapat</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Gün doğumuna kadar aç</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Gün batımına kadar kapat</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom"><xliff:g name="time" example="6 AM">%1$s</xliff:g> kadar açık</string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom"><xliff:g name="time" example="10 PM">%1$s</xliff:g> kadar kapalı</string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Etkin noktaya bağlı cihazları listele ve yönet</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Etkin noktaya bağlı cihazları listele</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihaz sınırı</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen Cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı Cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu işlem \"<xliff:g id="device_name">%1$s</xliff:g>\" cihazını bu cihazdan bağlantısını keser ve engelleme listesine ekler</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihazın engelini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">\"<xliff:g id="device_name">%1$s</xliff:g>\" cihazı bu etkin noktaya bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda hiçbir istemci mevcut değil. Bağlı ve engellenen cihazlar mevcut olduğunda burada listelenecektir.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Bu etkin noktaya en fazla <xliff:g id="device_num">%1$d</xliff:g> cihaz bağlanabilir</item>
+        <item quantity="one">Bu etkin noktaya en fazla <xliff:g id="device_num">%1$d</xliff:g> cihaz bağlanabilir</item>
+    </plurals>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">USB yapılandırması</string>
+    <string name="usb_default_config_summary">USB ile bir cihaza bağlandığında varsayılan davranışı seçin</string>
+
+    <string name="refresh_rate_title">Yenileme hızı</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Uyarlanabilir)</string>
+    <string name="refresh_rate_vrr_title">Uyarlanabilir yenileme hızı</string> 
+    <string name="refresh_rate_vrr_summary">Ekran boştayken yenileme hızını otomatik olarak düşürerek güç tasarrufu sağlar. Bazı ekranlarda titreme veya renk kaymasına neden olabilir</string> 
+    <string name="refresh_rate_footer">Daha yüksek bir yenileme hızı ekranı daha akıcı hale getirir, ancak güç tüketimini artırır</string>
+    <string name="keywords_refresh_rate">yenileme, hız, akıcı, zirve, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary">Bazı içerikler için yenileme hızını otomatik olarak 60\'tan <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz\'e yükseltir. Pil kullanımını artırır.</string>
+
+    <!-- General -->
+     <string name="copied_to_clipboard">Panoya kopyalandı</string>
+     <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radyo bilgisi</string>
+
+<!-- Doze settings -->
+    <string name="doze_pulse_on_pickup_title">Kaldırmada titreşim</string>
+    <string name="doze_pulse_on_pickup_summary">Cihaz kaldırıldığında bildirimleri titreştir\nNot: Kaldırmayla uyandırma özelliğinin etkin olması gerekir</string>
+    <string name="doze_pulse_on_double_tap_title">Çift dokunmada titreşim</string>
+    <string name="doze_pulse_on_double_tap_summary">Çift dokunmada bildirimleri titreştir\nNot: Dokunmayla uyandırma özelliğinin etkin olması gerekir</string>
+    <string name="doze_pulse_on_single_tap_title">Tek dokunmada titreşim</string>
+    <string name="doze_pulse_on_single_tap_summary">Tek dokunmada bildirimleri titreştir\nNot: Dokunmayla uyandırma özelliğinin etkin olması gerekir</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">Yüklü uygulamalar mevcut ayarları desteklemiyor</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">Uygulama başına yenileme hızı yapılandırması</string>
+    <string name="per_app_refresh_rate_summary">Yenileme hızını her uygulama için ayrı ayrı yapılandırın</string>
+    <string name="per_app_refresh_rate_default">Sistemi takip et</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">Ekran yenileme hızı</string>
+    <string name="min_refresh_rate_title">Minimum yenileme hızı</string>
+    <string name="max_refresh_rate_title">Maksimum yenileme hızı</string>
+    <string name="battery_saver_refresh_rate_title">Yenileme hızını azalt</string>
+    <string name="battery_saver_refresh_rate_summary">Pil Tasarrufu açıkken güç tasarrufu için 60 Hz ekran yenileme hızı kullan</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Aşırı yenileme hızı açık</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">Aşırı yenileme hızı</string>
+    <string name="extreme_refresh_rate_summary">Tüm uygulamalar için en yüksek yenileme hızını zorla</string>
+    <string name="extreme_refresh_rate_warning">Bu, sistemin kullanıcı tarafından seçilen ve uygulama tercih edilen seçenekleri göz ardı ederek en yüksek yenileme hızını seçmesini sağlayacaktır. Belirli bir yenileme hızı gerektiren uygulamalar anormal çalışabilir.</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">Etkinleştirmeye devam edilsin mi?</string>
+
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">Bulanıklık yoğunluğu</string>
+    <string name="blur_intensity_summary" formatted="false">Sistem genelindeki bulanıklık efektlerinin yoğunluğunu kontrol edin.\n%0 = bulanıklık yok, %100 = sistem varsayılanı, %200 = çift yoğunluk.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">MockLocation kısıtlamasını geçersiz kıl</string>
+    <string name="override_mock_location_summary">Etkinleştirildiğinde, uygulamalar konumun taklit edildiğini algılayamaz</string>
+    <string name="override_mock_location_enabled">Etkinleştirildi</string>
+    <string name="override_mock_location_disabled">Devre dışı bırakıldı</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Gelişmiş HDR parlaklığı</string>
+    <string name="hdr_display_summary">Yüksek Dinamik Aralık (HDR) görüntülerinde ve videolarında parlaklığı artırın ve renk aralığını ve netliği genişletin. HDR içeriği daha parlak görünecektir. Bu, pil kullanımını artıracaktır</string>
+    <string name="hdr_max_brightness_percent_title">HDR parlaklık yoğunluğu</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">Sistem bulanıklıkları için Glass Blur efekti kullan</string>
+    <string name="glass_blur_summary">Varsayılan bulanıklık efektini premium cam bulanıklığı efektiyle değiştirin\n⚠️ Belirli düşük seviyeli cihazlarda gecikmeye veya daha yüksek pil tüketimine/sıcaklığa neden olabilir.\nNOT:Bu özellik tüm cihazlarda çalışmayabilir.</string>
+</resources>

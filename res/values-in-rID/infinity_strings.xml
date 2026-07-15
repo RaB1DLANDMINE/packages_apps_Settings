@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Beralih otomatis antara 5G dan 4G untuk mengurangi konsumsi baterai</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Mesin Tampilan</string>
+    <string name="display_engine_mode_title">Mesin Tampilan Realitas</string>
+    <string name="x_reality_engine_mode_title">Mesin X-Reality</string>
+    <string name="triluminous_display_mode_title">Tampilan Triluminos</string>
+    <string name="vivid_engine_mode_title">Tampilan Hidup</string>
+    <string name="display_engine_default">Bawaan</string>
+    <string name="display_engine_mode_footer_text">Terinspirasi oleh mesin Bravia/X-Reality Sony, Display Engine menampilkan mode Vivid untuk kecerahan dan saturasi warna yang ditingkatkan, dan mode X-Reality untuk peningkatan detail dan akurasi warna.</string>
+   
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Ketuk dua kali</string>
+    <string name="doze_double_tap_title">Ketuk dua kali untuk memeriksa ponsel</string>
+    <string name="doze_double_tap_summary">Pulse notifikasi dengan ketukan ganda</string>
+
+    <!-- About phone -->
+    <string name="text_processor">Prosesor</string>
+    <string name="text_display">Tampilan</string>
+    <string name="text_battery">Baterai</string>
+    <string name="text_camera">Kamera</string>
+    <string name="text_ram_">RAM:</string>
+    <string name="text_rom_">ROM:</string>
+    <string name="text_maintainer">Pemelihara</string>
+    <string name="text_kernel_version">Kernel</string>
+    <string name="official_build_suffix">- Resmi</string>
+    <string name="unofficial_build_suffix">- Tidak Resmi</string>
+    <string name="ram_active_label">Aktif</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Mulai harimu dengan positif!</string>
+      <string name="dashboard_morning2">Matahari sudah terbit!</string>
+      <string name="dashboard_morning3">Pagi yang indah</string>
+      <string name="dashboard_morning4">Hari lain untuk hidup!</string>
+      <string name="dashboard_morning5">Hari baru</string>
+      <string name="dashboard_morning_greeting1">Selamat pagi</string>
+      <string name="dashboard_morning_greeting2">Selamat siang</string>
+      <string name="dashboard_noon1">Jalani hidupmu!</string>
+      <string name="dashboard_noon2">Nikmati matahari terbenam</string>
+      <string name="dashboard_noon3">Selamat datang di rumah</string>
+      <string name="dashboard_noon4">Nikmati harinya!</string>
+      <string name="dashboard_noon5">Selamat datang kembali</string>
+      <string name="dashboard_noon_greeting1">Selamat siang</string>
+      <string name="dashboard_early_night1">Malam akan datang!</string>
+      <string name="dashboard_early_night2">Waktu untuk makan malam!</string>
+      <string name="dashboard_early_night_greeting1">Selamat malam</string>
+      <string name="dashboard_night3">Mimpi indah!</string>
+      <string name="dashboard_night4">Sekarang waktunya tidur!</string>
+      <string name="dashboard_night5">Tidur nyenyak!</string>
+      <string name="dashboard_night_greetings1">Selamat malam</string>
+      <string name="dashboard_midnight1">Nikmati keheningan</string>
+      <string name="dashboard_midnight2">Cinta Tak Terbatas!</string>
+      <string name="dashboard_midnight3">Tidurlah</string>
+      <string name="dashboard_midnight4">Beristirahatlah</string>
+      <string name="dashboard_midnight5">Tidur larut malam?</string>
+      <string name="dashboard_random1">Assalamualaikum         </string>
+      <string name="dashboard_random2">Halo       </string>
+      <string name="dashboard_random3">Salam     </string>
+      <string name="dashboard_random4">Selamat siang    </string>
+      <string name="dashboard_random5">Selamat datang     </string>
+      <string name="dashboard_random6">Apa kabar  </string>
+      <string name="dashboard_random_greetings1">Coba cari beberapa easter egg!</string>
+      <string name="dashboard_random_greetings2">Jadilah Tak Terbatas!</string>
+      <string name="dashboard_random_greetings3">Sudahkah Anda menjelajahi Infinity?</string>
+      <string name="dashboard_random_greetings4">Nikmati harimu!</string>
+      <string name="settings_random1">Mencari sesuatu?</string>
+      <string name="settings_random2">Cari dan Anda akan melihat</string>
+      <string name="settings_random3">Cari dan Anda akan menemukan</string>
+      <string name="settings_random4">Cari Infinity</string>
+      <string name="settings_random5">Cari pengaturan</string>
+      <string name="settings_random6">Bermimpi besar dan berani gagal!</string>
+      <string name="default_user">Pengguna</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Infinity Suite</string>
+     <string name="infinity_suite_summary">Personalisasi perangkat Anda lebih lanjut</string>
+
+    <string name="gms_services_title">Layanan Google</string>
+    <string name="gms_services_summary">Layanan dan preferensi Google</string>
+    <string name="wellbeing_title">Kesejahteraan digital</string>
+    <string name="wellbeing_summary">Kesejahteraan digital dan kontrol orang tua</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Mode Tidur</string>
+    <string name="sleep_mode_summary_on">Aktif / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Nonaktif / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Mode dering</string>
+    <string name="sleep_mode_ringer_off_title">Jangan ubah</string>
+    <string name="sleep_mode_ringer_vibrate_title">Getar</string>
+    <string name="sleep_mode_ringer_dnd_title">Jangan Ganggu</string>
+    <string name="sleep_mode_ringer_silent_title">Diam</string>
+    <string name="sleep_mode_schedule_sunset">Matahari terbenam</string>
+    <string name="sleep_mode_schedule_sunrise">Matahari terbit</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Menyala dari matahari terbenam ke waktu kustom</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Menyala dari waktu kustom ke matahari terbit</string>
+    <string name="sleep_mode_toggles_title">Toggle</string>
+    <string name="sleep_mode_wifi_toggle_title">Matikan Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Nonaktifkan Wi-Fi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Matikan Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Nonaktifkan Bluetooth saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_cellular_toggle_title">Matikan Data seluler</string>
+    <string name="sleep_mode_cellular_toggle_summary">Nonaktifkan Data seluler saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_location_toggle_title">Matikan Lokasi</string>
+    <string name="sleep_mode_location_toggle_summary">Nonaktifkan Lokasi saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_sensors_toggle_title">Matikan Sensor</string>
+    <string name="sleep_mode_sensors_toggle_summary">Nonaktifkan Sensor saat Mode Tidur diaktifkan</string>
+    <string name="sleep_mode_display_text">Mode tidur memungkinkan Anda menonaktifkan layanan tertentu untuk membantu menghemat baterai dan menyenyapkan ponsel Anda saat Anda tidur.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Nyalakan sekarang</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Matikan sekarang</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Nyalakan hingga matahari terbit</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Matikan hingga matahari terbenam</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Nyalakan hingga <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Matikan hingga <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_client_manager_title">Perangkat terhubung</string>
+    <string name="wifi_hotspot_client_manager_summary">Daftar dan kelola perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Daftar perangkat yang terhubung ke hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Batas perangkat terhubung</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Perangkat yang Diblokir</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Perangkat Terhubung</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blokir perangkat</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Tindakan ini akan memutuskan \"<xliff:g id="device_name">%1$s</xliff:g>\" dari perangkat ini dan menambahkannya ke daftar blokir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Buka blokir perangkat</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Perangkat \"<xliff:g id="device_name">%1$s</xliff:g>\" akan dapat terhubung ke hotspot ini</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Tidak ada klien yang tersedia saat ini. Perangkat yang terhubung dan diblokir akan dicantumkan di sini ketika tersedia.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
+        <item quantity="one">Hingga <xliff:g id="device_num">%1$d</xliff:g> perangkat dapat terhubung ke hotspot ini</item>
+    </plurals>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Konfigurasi USB</string>
+    <string name="usb_default_config_summary">Pilih perilaku bawaan saat terhubung ke perangkat via USB</string>
+
+    <string name="refresh_rate_title">Refresh rate</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptif)</string>
+    <string name="refresh_rate_vrr_title">Refresh rate adaptif</string> 
+    <string name="refresh_rate_vrr_summary">Secara otomatis menurunkan refresh rate saat tampilan idle, untuk menghemat daya. Dapat menyebabkan kedipan atau pergeseran warna pada tampilan tertentu</string> 
+    <string name="refresh_rate_footer">Refresh rate yang lebih tinggi membuat tampilan lebih halus, tetapi meningkatkan konsumsi daya</string>
+    <string name="keywords_refresh_rate">refresh, rate, smooth, peak, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary">Secara otomatis menaikkan refresh rate dari 60 ke <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz untuk beberapa konten. Meningkatkan penggunaan baterai.</string>
+
+    <!-- General -->
+     <string name="copied_to_clipboard">Disalin ke clipboard</string>
+     <string name="longpress_to_clipboard">Tahan lama untuk menyalin</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Info radio</string>
+
+    <!-- Doze settings -->
+    <string name="doze_pulse_on_pickup_title">Layar menyala saat diangkat</string>
+    <string name="doze_pulse_on_pickup_summary">Notifikasi berkedip saat perangkat diangkat\nCatatan: Memerlukan fitur angkat untuk bangun diaktifkan</string>
+    <string name="doze_pulse_on_double_tap_title">Layar menyala saat ketuk dua kali</string>
+    <string name="doze_pulse_on_double_tap_summary">Notifikasi berkedip saat ketuk dua kali\nCatatan: Memerlukan fitur ketuk untuk bangun diaktifkan</string>
+    <string name="doze_pulse_on_single_tap_title">Layar menyala saat ketuk</string>
+    <string name="doze_pulse_on_single_tap_summary">Notifikasi berkedip saat ketuk sekali\nCatatan: Memerlukan fitur ketuk untuk bangun diaktifkan</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">Tidak ada aplikasi yang mendukung pengaturan saat ini</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">Konfigurasi refresh rate per-aplikasi</string>
+    <string name="per_app_refresh_rate_summary">Atur refresh rate secara individual untuk setiap aplikasi</string>
+    <string name="per_app_refresh_rate_default">Ikuti sistem</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">Refresh rate layar</string>
+    <string name="min_refresh_rate_title">Refresh rate minimum</string>
+    <string name="max_refresh_rate_title">Refresh rate maksimum</string>
+    <string name="battery_saver_refresh_rate_title">Turunkan refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Gunakan refresh rate 60 Hz untuk menghemat daya saat Penghemat Daya aktif</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Refresh rate ekstrem aktif</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">Refresh rate ekstrem</string>
+    <string name="extreme_refresh_rate_summary">Paksa refresh rate tertinggi untuk semua aplikasi</string>
+    <string name="extreme_refresh_rate_warning">Ini akan memastikan sistem memilih refresh rate tertinggi, mengabaikan pilihan pengguna dan opsi yang disukai aplikasi. Aplikasi yang memerlukan refresh rate spesifik mungkin tidak berjalan normal.</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">Lanjutkan untuk mengaktifkan?</string>
+
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">Intensitas blur</string>
+    <string name="blur_intensity_summary" formatted="false">Kendalikan intensitas efek blur di seluruh sistem.\n0% = tidak ada blur, 100% = default sistem, 200% = intensitas ganda.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">Override pembatasan MockLocation</string>
+    <string name="override_mock_location_summary">Saat diaktifkan, aplikasi tidak dapat mendeteksi bahwa lokasi sedang di-mock</string>
+    <string name="override_mock_location_enabled">Diaktifkan</string>
+    <string name="override_mock_location_disabled">Dinonaktifkan</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Kecerahan HDR yang ditingkatkan</string>
+    <string name="hdr_display_summary">Meningkatkan kecerahan dan memperluas rentang warna serta kejernihan pada gambar dan video High Dynamic Range (HDR). Konten HDR akan terlihat lebih cerah. Ini akan meningkatkan penggunaan baterai</string>
+    <string name="hdr_max_brightness_percent_title">Intensitas kecerahan HDR</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">Gunakan efek Glass Blur untuk blur sistem</string>
+    <string name="glass_blur_summary">Timpa efek blur bawaan dengan efek glass blur premium\n⚠️ Dapat menyebabkan lag atau pengurasan baterai/suhu yang lebih tinggi pada perangkat low-end tertentu.\nCATATAN:Fitur ini mungkin tidak berfungsi di semua perangkat.</string>
+</resources>

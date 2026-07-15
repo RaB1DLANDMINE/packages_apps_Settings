@@ -1,0 +1,9 @@
+package: "com.android.settings.flags"
+container: "system_ext"
+
+flag {
+    name: "is_dual_sim_onboarding_enabled"
+    namespace: "settings_experience"
+    description: "Control the Dual SIM onobarding feature"
+    bug: "298898436"
+}

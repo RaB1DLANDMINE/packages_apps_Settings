@@ -1,0 +1,18 @@
+<resources
+     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+ 
+     <color name="homepage_infinity_background">#FFCD00</color>
+     
+     <!-- xdUI Base Layout -->
+     <color name="homepage_blaze_background">#536dfe</color>
+     <color name="xd_background1">@android:color/system_neutral1_50</color>
+     
+     <!-- Custom colors-->
+     <color name="black">#171717</color>
+     <color name="off_black">#90171717</color>
+     <color name="white">#fff</color>
+     <color name="pureBlack">#000</color>
+     <color name="divider_light">#14000000</color>
+     <color name="card_outline_light">#33000000</color>
+     <color name="crd_bg">@android:color/system_neutral1_0</color>
+ </resources>

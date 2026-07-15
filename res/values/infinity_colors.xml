@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2024 Project Infinity X
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <color name="homepage_infinity_background">#FFCD00</color>
+
+
+    <!-- Custom colors-->
+     <color name="black">#171717</color>
+     <color name="off_black">#90171717</color>
+     <color name="white">#fff</color>
+     <color name="pureBlack">#000</color>
+     <color name="divider_light">#14000000</color>
+     <color name="card_outline_light">#33000000</color>
+     <color name="crd_bg">@android:color/system_neutral1_0</color>
+
+    <!-- Battery color -->
+     <color name="green_percentage">#02C205</color>
+     <color name="orange_percentage">#CF6000</color>
+     <color name="red_percentage">#BA0C00</color>
+     <color name="progress_background">#E0E0E0</color>
+
+    <!-- Settings Header -->
+    <color name="op_control_text_color_secondary">@color/op_control_text_color_secondary_light</color>
+    <color name="op_control_text_color_secondary_light">#66000000</color>
+    <color name="op_control_text_color_primary">@color/op_control_text_color_primary_light</color>
+    <color name="op_control_text_color_primary_light">#d8000000</color>
+</resources>

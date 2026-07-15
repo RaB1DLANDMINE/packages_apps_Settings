@@ -1,0 +1,132 @@
+package: "com.android.settings.accessibility"
+container: "system_ext"
+
+# NOTE: Keep alphabetized to help limit merge conflicts from multiple simultaneous editors.
+
+flag {
+  name: "add_brightness_settings_in_suw"
+  namespace: "accessibility"
+  description: "Whether to add brightness preference in SUW Vision Settings"
+  bug: "332974327"
+}
+
+flag {
+  name: "audio_balance_state_description"
+  namespace: "accessibility"
+  description: "Provides a more valuable state description to the audio balance slider."
+  bug: "319575109"
+  metadata {
+    purpose: PURPOSE_BUGFIX
+  }
+}
+
+flag {
+  name: "catalyst_a11y_activity_detail"
+  namespace: "accessibility"
+  description: "Migrate accessibility activity screen to the Catalyst infrastructure"
+  bug: "337243383"
+}
+
+flag {
+  name: "catalyst_a11y_service_detail"
+  namespace: "accessibility"
+  description: "Migrate accessibility service screen to the Catalyst infrastructure"
+  bug: "337243808"
+}
+
+flag {
+  name: "catalyst_color_inversion"
+  namespace: "accessibility"
+  description: "Migrate color inversion screen to the Catalyst infrastructure"
+  bug: "413452734"
+}
+
+flag {
+  name: "catalyst_dark_ui_mode"
+  namespace: "accessibility"
+  description: "Migrate dark mode screen to the Catalyst infrastructure"
+  bug: "337243099"
+}
+
+flag {
+  name: "catalyst_daltonizer"
+  namespace: "accessibility"
+  description: "Migrate daltonizer screen to the Catalyst infrastructure"
+  bug: "413453264"
+}
+
+flag {
+  name: "catalyst_extra_dim"
+  namespace: "accessibility"
+  description: "Migrate extra dim screen to the Catalyst infrastructure"
+  bug: "413454003"
+}
+
+flag {
+  name: "catalyst_flash_notifications"
+  namespace: "accessibility"
+  description: "Migrate flash notification screen to the Catalyst infrastructure"
+  bug: "337243568"
+}
+
+flag {
+  name: "catalyst_hearing_devices"
+  namespace: "accessibility"
+  description: "Migrate hearing device screen to the Catalyst infrastructure"
+  bug: "337244007"
+}
+
+flag {
+  name: "catalyst_magnification"
+  namespace: "accessibility"
+  description: "Migrate magnification screen to the Catalyst infrastructure"
+  bug: "413453974"
+}
+
+flag {
+  name: "check_prebundled_is_preinstalled"
+  namespace: "accessibility"
+  description: "Checks that all 'prebundled' components, used for grouping, are also preinstalled"
+  bug: "353888087"
+  metadata {
+    purpose: PURPOSE_BUGFIX
+  }
+}
+
+flag {
+  name: "enable_color_contrast_control"
+  namespace: "accessibility"
+  description: "Allows users to control color contrast in the Accessibility settings page."
+  bug: "246577325"
+}
+
+flag {
+    name: "enable_disability_support"
+    namespace: "accessibility"
+    description: "Use disability support for accessibility"
+    bug: "419387108"
+}
+
+flag {
+  name: "enable_magnification_cursor_following_dialog"
+  namespace: "accessibility"
+  description: "Decides whether to show the magnification cursor following dialog in Settings app."
+  bug: "388335935"
+}
+
+flag {
+  name: "enable_magnification_focus_following_dialog"
+  namespace: "accessibility"
+  description: "Decides whether to show the magnification focus following dialog in Settings app."
+  bug: "388336111"
+}
+
+flag {
+  name: "never_restrict_accessibility_activity"
+  namespace: "accessibility"
+  description: "Stops possibly restricting AccessibilityActivityPreferences"
+  bug: "331990900"
+  metadata {
+    purpose: PURPOSE_BUGFIX
+  }
+}

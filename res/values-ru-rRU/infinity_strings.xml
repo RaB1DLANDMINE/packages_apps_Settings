@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Умный 5G</string>
+    <string name="smart_5g_summary">Автоматически переключаться между 5G и 4G для снижения потребления батареи</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Движок дисплея</string>
+    <string name="display_engine_mode_title">Reality Display Engine</string>
+    <string name="x_reality_engine_mode_title">X-Reality Engine</string>
+    <string name="triluminous_display_mode_title">Triluminous Display</string>
+    <string name="vivid_engine_mode_title">Яркий дисплей</string>
+    <string name="display_engine_default">По умолчанию</string>
+    <string name="display_engine_mode_footer_text">Вдохновленный движком Sony Bravia/X-Reality, Display Engine включает режим Vivid для улучшенной яркости и насыщенности цветов, и режим X-Reality для улучшенной детализации и точности цветопередачи.</string>
+   
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное нажатие</string>
+    <string name="doze_double_tap_title">Двойное нажатие для проверки телефона</string>
+    <string name="doze_double_tap_summary">Показывать уведомления по двойному нажатию</string>
+
+    <!-- About phone -->
+    <string name="text_processor">Процессор</string>
+    <string name="text_display">Дисплей</string>
+    <string name="text_battery">Батарея</string>
+    <string name="text_camera">Камера</string>
+    <string name="text_ram_">ОЗУ:</string>
+    <string name="text_rom_">ПЗУ:</string>
+    <string name="text_maintainer">Мейнтейнер</string>
+    <string name="text_kernel_version">Ядро</string>
+    <string name="official_build_suffix">- Официальная</string>
+    <string name="unofficial_build_suffix">- Неофициальная</string>
+    <string name="ram_active_label">Активно</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Начните свой день позитивно!</string>
+      <string name="dashboard_morning2">Солнце взошло!</string>
+      <string name="dashboard_morning3">Прекрасное утро</string>
+      <string name="dashboard_morning4">Еще один день жизни!</string>
+      <string name="dashboard_morning5">Новый день</string>
+      <string name="dashboard_morning_greeting1">Доброе утро</string>
+      <string name="dashboard_morning_greeting2">Хорошего дня</string>
+      <string name="dashboard_noon1">Живите своей жизнью!</string>
+      <string name="dashboard_noon2">Наслаждайтесь закатом</string>
+      <string name="dashboard_noon3">Добро пожаловать домой</string>
+      <string name="dashboard_noon4">Наслаждайтесь днем!</string>
+      <string name="dashboard_noon5">С возвращением</string>
+      <string name="dashboard_noon_greeting1">Добрый день</string>
+      <string name="dashboard_early_night1">Ночь приближается!</string>
+      <string name="dashboard_early_night2">Время ужина!</string>
+      <string name="dashboard_early_night_greeting1">Добрый вечер</string>
+      <string name="dashboard_night3">Сладких снов!</string>
+      <string name="dashboard_night4">Пора спать!</string>
+      <string name="dashboard_night5">Спокойной ночи!</string>
+      <string name="dashboard_night_greetings1">Доброй ночи</string>
+      <string name="dashboard_midnight1">Наслаждайтесь тишиной</string>
+      <string name="dashboard_midnight2">Бесконечная любовь!</string>
+      <string name="dashboard_midnight3">Выспитесь</string>
+      <string name="dashboard_midnight4">Отдохните</string>
+      <string name="dashboard_midnight5">Поздно ложитесь?</string>
+      <string name="dashboard_random1">Привет         </string>
+      <string name="dashboard_random2">Здравствуйте       </string>
+      <string name="dashboard_random3">Приветствия     </string>
+      <string name="dashboard_random4">Добрый день    </string>
+      <string name="dashboard_random5">Добро пожаловать     </string>
+      <string name="dashboard_random6">Как дела?  </string>
+      <string name="dashboard_random_greetings1">Попробуйте найти пасхалки!</string>
+      <string name="dashboard_random_greetings2">Будьте Бесконечными!</string>
+      <string name="dashboard_random_greetings3">Вы исследовали Бесконечность?</string>
+      <string name="dashboard_random_greetings4">Наслаждайтесь своим днем!</string>
+      <string name="settings_random1">Ищете что-то?</string>
+      <string name="settings_random2">Ищите и вы увидите</string>
+      <string name="settings_random3">Ищите и вы найдете</string>
+      <string name="settings_random4">Ищите бесконечно</string>
+      <string name="settings_random5">Поиск настроек</string>
+      <string name="settings_random6">Мечтайте о великом и не бойтесь ошибаться!</string>
+      <string name="default_user">Пользователь</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Infinity Suite</string>
+     <string name="infinity_suite_summary">Дополнительная персонализация вашего устройства</string>
+
+    <string name="gms_services_title">Сервисы Google</string>
+    <string name="gms_services_summary">Сервисы Google и настройки</string>
+    <string name="wellbeing_title">Цифровое благополучие</string>
+    <string name="wellbeing_summary">Цифровое благополучие и родительский контроль</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Режим сна</string>
+    <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Никогда не выключать автоматически">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Никогда не включать автоматически">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не изменять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Без звука</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Восход</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается от заката до пользовательского времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается от пользовательского времени до восхода</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключать Wi-Fi при включении режима сна</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключать Bluetooth при включении режима сна</string>
+    <string name="sleep_mode_cellular_toggle_title">Выключить мобильные данные</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключать мобильные данные при включении режима сна</string>
+    <string name="sleep_mode_location_toggle_title">Выключить геолокацию</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать геолокацию при включении режима сна</string>
+    <string name="sleep_mode_sensors_toggle_title">Выключить датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключать датчики при включении режима сна</string>
+    <string name="sleep_mode_display_text">Режим сна позволяет отключать определенные сервисы для экономии батареи и отключения звука телефона во время сна.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Включить сейчас</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Выключить сейчас</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Включить до восхода</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Выключить до заката</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Включить до <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Выключить до <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_client_manager_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_client_manager_summary">Список и управление устройствами, подключенными к точке доступа</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Список устройств, подключенных к точке доступа</string>
+    <string name="wifi_hotspot_client_limit_title">Лимит подключенных устройств</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в черный список</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключаться к этой точке доступа</string>
+    <string name="wifi_hotspot_client_manager_footer_text">В настоящее время клиенты недоступны. Подключенные и заблокированные устройства будут отображаться здесь, когда станут доступны.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">До <xliff:g id="device_num">%1$d</xliff:g> устройств могут подключиться к этой точке доступа</item>
+        <item quantity="one">До <xliff:g id="device_num">%1$d</xliff:g> устройства может подключиться к этой точке доступа</item>
+    </plurals>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Конфигурация USB</string>
+    <string name="usb_default_config_summary">Выберите поведение по умолчанию при подключении к устройству через USB</string>
+
+    <string name="refresh_rate_title">Частота обновления</string>
+    <string name="refresh_rate_summary_vrr_off">%d Гц</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Гц (Адаптивная)</string>
+    <string name="refresh_rate_vrr_title">Адаптивная частота обновления</string> 
+    <string name="refresh_rate_vrr_summary">Автоматически снижать частоту обновления, когда дисплей неактивен, для экономии энергии. Может вызывать мерцание или сдвиг цветов на некоторых дисплеях</string> 
+    <string name="refresh_rate_footer">Более высокая частота обновления делает дисплей плавнее, но увеличивает потребление энергии</string>
+    <string name="keywords_refresh_rate">обновление, частота, плавность, пиковая, 60гц, 90гц, 120гц, 144гц, 165гц</string>
+    <string name="peak_refresh_rate_summary">Автоматически повышает частоту обновления с 60 до <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Гц для некоторого контента. Увеличивает расход батареи.</string>
+
+    <!-- General -->
+     <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+     <string name="longpress_to_clipboard">Долгое нажатие для копирования</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о радио</string>
+
+<!-- Doze settings -->
+<string name="doze_pulse_on_pickup_title">Показ при поднятии</string>
+<string name="doze_pulse_on_pickup_summary">Показывать уведомления при поднятии устройства\nПримечание: Требуется включенная функция подъема для включения</string>
+<string name="doze_pulse_on_double_tap_title">Показ по двойному нажатию</string>
+<string name="doze_pulse_on_double_tap_summary">Показывать уведомления по двойному нажатию\nПримечание: Требуется включенная функция нажатия для включения</string>
+<string name="doze_pulse_on_single_tap_title">Показ по нажатию</string>
+<string name="doze_pulse_on_single_tap_summary">Показывать уведомления по одному нажатию\nПримечание: Требуется включенная функция нажатия для включения</string>
+
+<!-- Per-app configs -->
+<string name="per_app_config_empty_text">Установленные приложения не поддерживают текущие настройки</string>
+
+<!-- Per-app refresh rate -->
+<string name="per_app_refresh_rate_title">Настройка частоты обновления для приложений</string>
+<string name="per_app_refresh_rate_summary">Настройка частоты обновления отдельно для каждого приложения</string>
+<string name="per_app_refresh_rate_default">Как в системе</string>
+
+<!-- Screen refresh rate -->
+<string name="screen_refresh_rate_title">Частота обновления экрана</string>
+<string name="min_refresh_rate_title">Минимальная частота обновления</string>
+<string name="max_refresh_rate_title">Максимальная частота обновления</string>
+<string name="battery_saver_refresh_rate_title">Снизить частоту обновления</string>
+<string name="battery_saver_refresh_rate_summary">Использовать 60 Гц для экономии энергии при включенном режиме энергосбережения</string>
+<string name="battery_saver_refresh_rate_disabled_summary">Включена экстремальная частота обновления</string>
+
+<!-- Extreme refresh rate -->
+<string name="extreme_refresh_rate_title">Экстремальная частота обновления</string>
+<string name="extreme_refresh_rate_summary">Принудительно использовать максимальную частоту обновления для всех приложений</string>
+<string name="extreme_refresh_rate_warning">Это гарантирует, что система выберет максимальную частоту обновления, игнорируя пользовательские настройки и предпочтения приложений. Приложения, требующие определенной частоты обновления, могут работать некорректно.</string>
+
+<!-- Confirm dialog -->
+<string name="confirm_before_enable_title">Продолжить включение?</string>
+
+<!-- Blur intensity -->
+<string name="blur_intensity_title">Интенсивность размытия</string>
+<string name="blur_intensity_summary" formatted="false">Управление интенсивностью эффектов размытия в системе.\n0% = без размытия, 100% = по умолчанию, 200% = двойная интенсивность.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">Отключить ограничение MockLocation</string>
+    <string name="override_mock_location_summary">При включении приложения не смогут определить, что местоположение имитируется</string>
+    <string name="override_mock_location_enabled">Включено</string>
+    <string name="override_mock_location_disabled">Выключено</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Улучшенная HDR яркость</string>
+    <string name="hdr_display_summary">Увеличить яркость и расширить цветовую гамму и четкость в изображениях и видео с расширенным динамическим диапазоном (HDR). HDR контент будет ярче. Это увеличит расход батареи</string>
+    <string name="hdr_max_brightness_percent_title">Интенсивность HDR яркости</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">Использовать эффект стеклянного размытия для системного размытия</string>
+    <string name="glass_blur_summary">Заменить стандартный эффект размытия на премиальный эффект стеклянного размытия\n⚠️ Может вызвать задержки или повышенный расход батареи/температуру на некоторых бюджетных устройствах.\nПРИМЕЧАНИЕ:Эта функция может не работать на всех устройствах.</string>
+</resources>

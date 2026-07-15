@@ -1,0 +1,56 @@
+package: "com.android.settings.flags"
+container: "system_ext"
+
+flag {
+  name: "sfps_enroll_refinement"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether the sfps pause enrollment feature should be enabled"
+  bug: "288155127"
+}
+
+flag {
+  name: "enroll_layout_truncate_improvement"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether the enroll layout truncate improvement feature should be enabled"
+  bug: "359149850"
+  metadata {
+      purpose: PURPOSE_BUGFIX
+  }
+}
+
+flag {
+  name: "biometrics_onboarding_education"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether the onboarding education settings UX should be enabled"
+  bug: "370940762"
+}
+
+flag {
+  name: "biometric_onboarding_education"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether the onboarding education settings UX should be enabled"
+  bug: "370940762"
+  metadata {
+      purpose: PURPOSE_BUGFIX
+  }
+}
+
+flag {
+  name: "msdl_feedback"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether MSDL haptic feedback is delivered in Settings, especially for the bouncer pattern"
+  bug: "406774575"
+  metadata {
+      purpose: PURPOSE_BUGFIX
+  }
+}
+
+flag {
+  name: "remove_protection_layout"
+  namespace: "biometrics_integration"
+  description: "This flag controls whether remove protection layout in biometrics settings"
+  bug: "440023111"
+  metadata {
+      purpose: PURPOSE_BUGFIX
+  }
+}

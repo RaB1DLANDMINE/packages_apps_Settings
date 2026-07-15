@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Thông minh</string>
+    <string name="smart_5g_summary">Tự động chuyển đổi giữa 5G và 4G để giảm tiêu thụ pin</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Công cụ Hiển thị</string>
+    <string name="display_engine_mode_title">Công cụ Hiển thị Thực tế</string>
+    <string name="x_reality_engine_mode_title">Công cụ X-Reality</string>
+    <string name="triluminous_display_mode_title">Hiển thị Triluminous</string>
+    <string name="vivid_engine_mode_title">Hiển thị Sống động</string>
+    <string name="display_engine_default">Mặc định</string>
+    <string name="display_engine_mode_footer_text">Lấy cảm hứng từ công cụ Bravia/X-Reality của Sony, Công cụ Hiển thị có chế độ Sống động để tăng cường độ sáng và độ bão hòa màu, và chế độ X-Reality để cải thiện chi tiết và độ chính xác màu.</string>
+   
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Chạm đúp</string>
+    <string name="doze_double_tap_title">Chạm đúp để kiểm tra điện thoại</string>
+    <string name="doze_double_tap_summary">Hiện thông báo bằng cách chạm đúp</string>
+
+    <!-- About phone -->
+    <string name="text_processor">Bộ xử lý</string>
+    <string name="text_display">Màn hình</string>
+    <string name="text_battery">Pin</string>
+    <string name="text_camera">Máy ảnh</string>
+    <string name="text_ram_">RAM:</string>
+    <string name="text_rom_">ROM:</string>
+    <string name="text_maintainer">Người bảo trì</string>
+    <string name="text_kernel_version">Kernel</string>
+    <string name="official_build_suffix">- Chính thức</string>
+    <string name="unofficial_build_suffix">- Không chính thức</string>
+    <string name="ram_active_label">Đang hoạt động</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Bắt đầu ngày mới tích cực!</string>
+      <string name="dashboard_morning2">Mặt trời đã lên!</string>
+      <string name="dashboard_morning3">Một buổi sáng đẹp trời</string>
+      <string name="dashboard_morning4">Một ngày mới để sống!</string>
+      <string name="dashboard_morning5">Một ngày mới</string>
+      <string name="dashboard_morning_greeting1">Chào buổi sáng</string>
+      <string name="dashboard_morning_greeting2">Chúc một ngày tốt lành</string>
+      <string name="dashboard_noon1">Hãy sống cuộc đời của bạn!</string>
+      <string name="dashboard_noon2">Tận hưởng hoàng hôn</string>
+      <string name="dashboard_noon3">Chào mừng về nhà</string>
+      <string name="dashboard_noon4">Tận hưởng ngày mới!</string>
+      <string name="dashboard_noon5">Chào mừng trở lại</string>
+      <string name="dashboard_noon_greeting1">Chào buổi chiều</string>
+      <string name="dashboard_early_night1">Màn đêm đang tới!</string>
+      <string name="dashboard_early_night2">Đến giờ ăn tối!</string>
+      <string name="dashboard_early_night_greeting1">Chào buổi tối</string>
+      <string name="dashboard_night3">Những giấc mơ ngọt ngào!</string>
+      <string name="dashboard_night4">Đến giờ đi ngủ rồi!</string>
+      <string name="dashboard_night5">Ngủ ngon nhé!</string>
+      <string name="dashboard_night_greetings1">Chúc ngủ ngon</string>
+      <string name="dashboard_midnight1">Tận hưởng sự tĩnh lặng</string>
+      <string name="dashboard_midnight2">Tình yêu Vô hạn!</string>
+      <string name="dashboard_midnight3">Ngủ một chút đi</string>
+      <string name="dashboard_midnight4">Nghỉ ngơi đi</string>
+      <string name="dashboard_midnight5">Thức khuà à?</string>
+      <string name="dashboard_random1">Này         </string>
+      <string name="dashboard_random2">Xin chào       </string>
+      <string name="dashboard_random3">Lời chào     </string>
+      <string name="dashboard_random4">Chúc một ngày tốt lành    </string>
+      <string name="dashboard_random5">Chào mừng     </string>
+      <string name="dashboard_random6">Có gì mới không  </string>
+      <string name="dashboard_random_greetings1">Thử tìm một số trứng phục sinh đi!</string>
+      <string name="dashboard_random_greetings2">Hãy trở nên Vô hạn!</string>
+      <string name="dashboard_random_greetings3">Bạn đã khám phá Infinity chưa?</string>
+      <string name="dashboard_random_greetings4">Tận hưởng ngày của bạn!</string>
+      <string name="settings_random1">Đang tìm kiếm thứ gì đó?</string>
+      <string name="settings_random2">Tìm và bạn sẽ thấy</string>
+      <string name="settings_random3">Tìm kiếm và bạn sẽ thấy</string>
+      <string name="settings_random4">Tìm kiếm Vô hạn</string>
+      <string name="settings_random5">Tìm kiếm cài đặt</string>
+      <string name="settings_random6">Mơ ước lớn và dám thất bại!</string>
+      <string name="default_user">Người dùng</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Bộ Infinity</string>
+     <string name="infinity_suite_summary">Cá nhân hóa thiết bị của bạn hơn nữa</string>
+
+    <string name="gms_services_title">Dịch vụ Google</string>
+    <string name="gms_services_summary">Dịch vụ và tùy chọn Google</string>
+    <string name="wellbeing_title">Sức khỏe kỹ thuật số</string>
+    <string name="wellbeing_summary">Sức khỏe kỹ thuật số và kiểm soát của phụ huynh</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Chế độ Ngủ</string>
+    <string name="sleep_mode_summary_on">Bật / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Tắt / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Chế độ chuông</string>
+    <string name="sleep_mode_ringer_off_title">Không thay đổi</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rung</string>
+    <string name="sleep_mode_ringer_dnd_title">Không làm phiền</string>
+    <string name="sleep_mode_ringer_silent_title">Im lặng</string>
+    <string name="sleep_mode_schedule_sunset">Hoàng hôn</string>
+    <string name="sleep_mode_schedule_sunrise">Bình minh</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Bật từ hoàng hôn đến thời gian tùy chỉnh</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Bật từ thời gian tùy chỉnh đến bình minh</string>
+    <string name="sleep_mode_toggles_title">Công tắc</string>
+    <string name="sleep_mode_wifi_toggle_title">Tắt Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Tắt Wi-Fi khi Chế độ Ngủ được bật</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Tắt Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Tắt Bluetooth khi Chế độ Ngủ được bật</string>
+    <string name="sleep_mode_cellular_toggle_title">Tắt Dữ liệu di động</string>
+    <string name="sleep_mode_cellular_toggle_summary">Tắt Dữ liệu di động khi Chế độ Ngủ được bật</string>
+    <string name="sleep_mode_location_toggle_title">Tắt Vị trí</string>
+    <string name="sleep_mode_location_toggle_summary">Tắt Vị trí khi Chế độ Ngủ được bật</string>
+    <string name="sleep_mode_sensors_toggle_title">Tắt Cảm biến</string>
+    <string name="sleep_mode_sensors_toggle_summary">Tắt Cảm biến khi Chế độ Ngủ được bật</string>
+    <string name="sleep_mode_display_text">Chế độ Ngủ cho phép bạn tắt một số dịch vụ nhất định để giúp tiết kiệm pin và im lặng điện thoại trong khi bạn ngủ.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Bật ngay</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Tắt ngay</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Bật đến bình minh</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Tắt đến hoàng hôn</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Bật đến <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Tắt đến <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_client_manager_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_client_manager_summary">Liệt kê và quản lý các thiết bị kết nối đến điểm phát sóng</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Liệt kê các thiết bị kết nối đến điểm phát sóng</string>
+    <string name="wifi_hotspot_client_limit_title">Giới hạn thiết bị kết nối</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Thiết bị bị chặn</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Thiết bị đã kết nối</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Chặn thiết bị</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Hành động này sẽ ngắt kết nối \"<xliff:g id="device_name">%1$s</xliff:g>\" khỏi thiết bị này và thêm nó vào danh sách chặn</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Bỏ chặn thiết bị</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Thiết bị \"<xliff:g id="device_name">%1$s</xliff:g>\" sẽ có thể kết nối đến điểm phát sóng này</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Hiện không có máy khách nào khả dụng. Các thiết bị đã kết nối và bị chặn sẽ được liệt kê ở đây khi có sẵn.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Tối đa <xliff:g id="device_num">%1$d</xliff:g> thiết bị có thể kết nối đến điểm phát sóng này</item>
+        <item quantity="one">Tối đa <xliff:g id="device_num">%1$d</xliff:g> thiết bị có thể kết nối đến điểm phát sóng này</item>
+    </plurals>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Cấu hình USB</string>
+    <string name="usb_default_config_summary">Chọn hành vi mặc định khi kết nối với một thiết bị qua USB</string>
+
+    <string name="refresh_rate_title">Tần số làm tươi</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Thích ứng)</string>
+    <string name="refresh_rate_vrr_title">Tần số làm tươi thích ứng</string> 
+    <string name="refresh_rate_vrr_summary">Tự động hạ tần số làm tươi khi màn hình không hoạt động, để tiết kiệm điện. Có thể gây nhấp nháy hoặc thay đổi màu trên một số màn hình</string> 
+    <string name="refresh_rate_footer">Tần số làm tươi cao hơn làm cho màn hình mượt mà hơn, nhưng tăng mức tiêu thụ điện</string>
+    <string name="keywords_refresh_rate">làm tươi, tần số, mượt, đỉnh, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary">Tự động nâng tần số làm tươi từ 60 lên <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz cho một số nội dung. Tăng mức sử dụng pin.</string>
+
+    <!-- General -->
+     <string name="copied_to_clipboard">Đã sao chép vào bảng nhớ tạm</string>
+     <string name="longpress_to_clipboard">Nhấn giữ để sao chép</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Thông tin radio</string>
+
+<!-- Doze settings -->
+    <string name="doze_pulse_on_pickup_title">Hiện thông báo khi nhấc lên</string>
+    <string name="doze_pulse_on_pickup_summary">Hiện thông báo khi nhấc thiết bị lên\nLưu ý: Yêu cầu tính năng nhấc lên để bật màn hình được kích hoạt</string>
+    <string name="doze_pulse_on_double_tap_title">Hiện thông báo khi chạm đúp</string>
+    <string name="doze_pulse_on_double_tap_summary">Hiện thông báo khi chạm đúp\nLưu ý: Yêu cầu tính năng chạm để bật màn hình được kích hoạt</string>
+    <string name="doze_pulse_on_single_tap_title">Hiện thông báo khi chạm</string>
+    <string name="doze_pulse_on_single_tap_summary">Hiện thông báo khi chạm một lần\nLưu ý: Yêu cầu tính năng chạm để bật màn hình được kích hoạt</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">Không có ứng dụng nào được cài đặt hỗ trợ cài đặt hiện tại</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">Cấu hình tần số làm tươi theo ứng dụng</string>
+    <string name="per_app_refresh_rate_summary">Định cấu hình tần số làm tươi riêng cho từng ứng dụng</string>
+    <string name="per_app_refresh_rate_default">Theo hệ thống</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">Tần số làm tươi màn hình</string>
+    <string name="min_refresh_rate_title">Tần số làm tươi tối thiểu</string>
+    <string name="max_refresh_rate_title">Tần số làm tươi tối đa</string>
+    <string name="battery_saver_refresh_rate_title">Giảm tần số làm tươi</string>
+    <string name="battery_saver_refresh_rate_summary">Sử dụng tần số làm tươi màn hình 60 Hz để tiết kiệm điện khi Tiết kiệm pin được bật</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Tần số làm tươi cực cao đang bật</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">Tần số làm tươi cực cao</string>
+    <string name="extreme_refresh_rate_summary">Buộc tần số làm tươi cao nhất cho tất cả ứng dụng</string>
+    <string name="extreme_refresh_rate_warning">Điều này sẽ đảm bảo hệ thống chọn tần số làm tươi cao nhất, bỏ qua các tùy chọn được người dùng chọn và ứng dụng ưa thích. Các ứng dụng yêu cầu tần số làm tươi cụ thể có thể chạy không bình thường.</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">Tiếp tục kích hoạt?</string>
+
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">Cường độ làm mờ</string>
+    <string name="blur_intensity_summary" formatted="false">Điều khiển cường độ của hiệu ứng làm mờ trong toàn hệ thống.\n0% = không làm mờ, 100% = mặc định hệ thống, 200% = cường độ gấp đôi.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">Ghi đè giới hạn MockLocation</string>
+    <string name="override_mock_location_summary">Khi được kích hoạt, ứng dụng không thể phát hiện rằng vị trí đang bị giả mạo</string>
+    <string name="override_mock_location_enabled">Đã kích hoạt</string>
+    <string name="override_mock_location_disabled">Đã vô hiệu hóa</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Độ sáng HDR nâng cao</string>
+    <string name="hdr_display_summary">Tăng độ sáng và mở rộng phạm vi màu sắc và độ rõ nét trong hình ảnh và video Dải Động Cao (HDR). Nội dung HDR sẽ xuất hiện sáng hơn. Điều này sẽ tăng mức tiêu thụ pin</string>
+    <string name="hdr_max_brightness_percent_title">Cường độ độ sáng HDR</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">Sử dụng hiệu ứng Glass Blur cho làm mờ hệ thống</string>
+    <string name="glass_blur_summary">Ghi đè hiệu ứng làm mờ mặc định bằng hiệu ứng glass blur cao cấp\n⚠️ Có thể gây trễ hoặc tiêu hao pin/nhiệt độ cao hơn trên một số thiết bị cấu hình thấp.\nLƯU Ý:Tính năng này có thể không hoạt động trên tất cả các thiết bị.</string>
+</resources>

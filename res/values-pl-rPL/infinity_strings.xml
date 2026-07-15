@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatycznie przełączaj między 5G a 4G, aby zmniejszyć zużycie baterii</string>
+
+    <!-- About phone -->
+    <string name="text_processor">Procesor</string>
+    <string name="text_display">Wyświetlacz</string>
+    <string name="text_battery">Bateria</string>
+    <string name="text_camera">Aparat</string>
+    <string name="text_ram_">RAM:</string>
+    <string name="text_rom_">ROM:</string>
+    <string name="text_maintainer">Opiekun</string>
+    <string name="text_kernel_version">Jądro</string>
+    <string name="official_build_suffix">- Oficjalna</string>
+    <string name="unofficial_build_suffix">- Nieoficjalna</string>
+    <string name="ram_active_label">Aktywne</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Rozpocznij dzień pozytywnie!</string>
+      <string name="dashboard_morning2">Słońce wschodzi!</string>
+      <string name="dashboard_morning3">Piękny poranek</string>
+      <string name="dashboard_morning4">Kolejny dzień do życia!</string>
+      <string name="dashboard_morning5">Nowy dzień</string>
+      <string name="dashboard_morning_greeting1">Dzień dobry</string>
+      <string name="dashboard_morning_greeting2">Miłego dnia</string>
+      <string name="dashboard_noon1">Żyj swoim życiem!</string>
+      <string name="dashboard_noon2">Ciesz się zachodem słońca</string>
+      <string name="dashboard_noon3">Witaj w domu</string>
+      <string name="dashboard_noon4">Ciesz się dniem!</string>
+      <string name="dashboard_noon5">Witaj z powrotem</string>
+      <string name="dashboard_noon_greeting1">Dzień dobry</string>
+      <string name="dashboard_early_night1">Nadchodzi noc!</string>
+      <string name="dashboard_early_night2">Czas na kolację!</string>
+      <string name="dashboard_early_night_greeting1">Dobry wieczór</string>
+      <string name="dashboard_night3">Słodkich snów!</string>
+      <string name="dashboard_night4">Czas już spać!</string>
+      <string name="dashboard_night5">Śpij dobrze!</string>
+      <string name="dashboard_night_greetings1">Dobranoc</string>
+      <string name="dashboard_midnight1">Ciesz się ciszą</string>
+      <string name="dashboard_midnight2">Nieskończona miłość!</string>
+      <string name="dashboard_midnight3">Wyśpij się</string>
+      <string name="dashboard_midnight4">Odpocznij</string>
+      <string name="dashboard_midnight5">Siedzisz do późna?</string>
+      <string name="dashboard_random1">Hej         </string>
+      <string name="dashboard_random2">Witaj       </string>
+      <string name="dashboard_random3">Pozdrowienia     </string>
+      <string name="dashboard_random4">Miłego dnia    </string>
+      <string name="dashboard_random5">Witamy     </string>
+      <string name="dashboard_random6">Co słychać  </string>
+      <string name="dashboard_random_greetings1">Spróbuj znaleźć jakieś easter eggi!</string>
+      <string name="dashboard_random_greetings2">Bądź nieskończony!</string>
+      <string name="dashboard_random_greetings3">Czy odkryłeś nieskończoność?</string>
+      <string name="dashboard_random_greetings4">Miłego dnia!</string>
+      <string name="settings_random1">Szukasz czegoś?</string>
+      <string name="settings_random2">Szukaj, a zobaczysz</string>
+      <string name="settings_random3">Szukaj, a znajdziesz</string>
+      <string name="settings_random4">Szukaj w nieskończoności</string>
+      <string name="settings_random5">Szukaj w ustawieniach</string>
+      <string name="settings_random6">Śnij wielkie sny i odważ się zawieść!</string>
+      <string name="default_user">Użytkownik</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Infinity Suite</string>
+     <string name="infinity_suite_summary">Dostosuj swoje urządzenie jeszcze bardziej</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Podwójne dotknięcie</string>
+    <string name="doze_double_tap_title">Podwójne dotknięcie, aby sprawdzić telefon</string>
+    <string name="doze_double_tap_summary">Wyświetlaj powiadomienia poprzez podwójne dotknięcie</string>
+
+    <!-- Doze settings -->
+    <string name="doze_pulse_on_pickup_title">Aktywuj przy podniesieniu</string>
+    <string name="doze_pulse_on_pickup_summary">Wyświetlaj powiadomienia przy podniesieniu urządzenia\nUwaga: wymaga włączonej funkcji podnoszenia, aby obudzić</string>
+    <string name="doze_pulse_on_double_tap_title">Aktywuj przy podwójnym dotknięciu</string>
+    <string name="doze_pulse_on_double_tap_summary">Wyświetlaj powiadomienia przy podwójnym dotknięciu\nUwaga: wymaga włączonej funkcji dotknięcia, aby obudzić</string>
+    <string name="doze_pulse_on_single_tap_title">Aktywuj przy dotknięciu</string>
+    <string name="doze_pulse_on_single_tap_summary">Wyświetlaj powiadomienia przy pojedynczym dotknięciu\nUwaga: wymaga włączonej funkcji dotknięcia, aby obudzić</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">Żadna z zainstalowanych aplikacji nie obsługuje bieżących ustawień</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">Konfiguracja częstotliwości odświeżania dla aplikacji</string>
+    <string name="per_app_refresh_rate_summary">Skonfiguruj częstotliwość odświeżania indywidualnie dla każdej aplikacji</string>
+    <string name="per_app_refresh_rate_default">Zgodnie z systemem</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">Częstotliwość odświeżania ekranu</string>
+    <string name="min_refresh_rate_title">Minimalna częstotliwość odświeżania</string>
+    <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_title">Zmniejsz częstotliwość odświeżania</string>
+    <string name="battery_saver_refresh_rate_summary">Użyj 60 Hz częstotliwości odświeżania ekranu, aby oszczędzać baterię, gdy oszczędzanie baterii jest włączone</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Ekstremalna częstotliwość odświeżania jest włączona</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">Ekstremalna częstotliwość odświeżania</string>
+    <string name="extreme_refresh_rate_summary">Wymuś najwyższą częstotliwość odświeżania dla wszystkich aplikacji</string>
+    <string name="extreme_refresh_rate_warning">Spowoduje to, że system wybierze najwyższą częstotliwość odświeżania, ignorując wybrane przez użytkownika i preferowane przez aplikacje opcje. Aplikacje, które wymagają określonej częstotliwości odświeżania, mogą działać nieprawidłowo.</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">Kontynuować włączanie?</string>
+
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">Intensywność rozmycia</string>
+    <string name="blur_intensity_summary" formatted="false">Kontroluj intensywność efektów rozmycia w całym systemie.\n0% = brak rozmycia, 100% = domyślnie systemowo, 200% = podwójna intensywność.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">Zastąp ograniczenie MockLocation</string>
+    <string name="override_mock_location_summary">Po włączeniu aplikacje nie mogą wykryć, że lokalizacja jest symulowana</string>
+    <string name="override_mock_location_enabled">Włączone</string>
+    <string name="override_mock_location_disabled">Wyłączone</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Tryb snu</string>
+    <string name="sleep_mode_summary_on">Wł. / <xliff:g name="auto_mode_summary" example="Nigdy nie wyłączaj automatycznie">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Wył. / <xliff:g name="auto_mode_summary" example="Nigdy nie włączaj automatycznie">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Tryb dzwonka</string>
+    <string name="sleep_mode_ringer_off_title">Nie zmieniaj</string>
+    <string name="sleep_mode_ringer_vibrate_title">Wibracja</string>
+    <string name="sleep_mode_ringer_dnd_title">Nie przeszkadzać</string>
+    <string name="sleep_mode_ringer_silent_title">Wyciszenie</string>
+    <string name="sleep_mode_schedule_sunset">Zachód słońca</string>
+    <string name="sleep_mode_schedule_sunrise">Wschód słońca</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Włącza się od zachodu do niestandardowej godziny</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Włącza się od niestandardowej godziny do wschodu słońca</string>
+    <string name="sleep_mode_toggles_title">Przełączniki</string>
+    <string name="sleep_mode_wifi_toggle_title">Wyłącz Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Wyłącz Wi-Fi, gdy tryb snu jest włączony</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Wyłącz Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Wyłącz Bluetooth, gdy tryb snu jest włączony</string>
+    <string name="sleep_mode_cellular_toggle_title">Wyłącz dane mobilne</string>
+    <string name="sleep_mode_cellular_toggle_summary">Wyłącz dane mobilne, gdy tryb snu jest włączony</string>
+    <string name="sleep_mode_location_toggle_title">Wyłącz lokalizację</string>
+    <string name="sleep_mode_location_toggle_summary">Wyłącz lokalizację, gdy tryb snu jest włączony</string>
+    <string name="sleep_mode_sensors_toggle_title">Wyłącz czujniki</string>
+    <string name="sleep_mode_sensors_toggle_summary">Wyłącz czujniki, gdy tryb snu jest włączony</string>
+    <string name="sleep_mode_display_text">Tryb snu pozwala wyłączyć określone usługi, aby oszczędzać baterię i wyciszyć telefon podczas snu.</string>
+    <string name="night_display_activation_on_manual">Włącz teraz</string>
+    <string name="night_display_activation_off_manual">Wyłącz teraz</string>
+    <string name="night_display_activation_off_twilight">Wyłącz do zachodu słońca</string>
+    <string name="night_display_activation_on_twilight">Włącz do wschodu słońca</string>
+    <string name="night_display_activation_off_custom">Wyłącz do <xliff:g name="time" example="22:00">%1$s</xliff:g></string>
+    <string name="night_display_activation_on_custom">Włącz do <xliff:g name="time" example="6:00">%1$s</xliff:g></string>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Konfiguracja USB</string>
+    <string name="usb_default_config_summary">Wybierz domyślne zachowanie po podłączeniu do urządzenia przez USB</string>
+    <string name="gms_services_title">Usługi Google</string>
+    <string name="gms_services_summary">Usługi Google i preferencje</string>
+    <string name="wellbeing_title">Dobrostan cyfrowy</string>
+    <string name="wellbeing_summary">Dobrostan cyfrowy i kontrola rodzicielska</string>
+</resources>

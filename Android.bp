@@ -1,0 +1,232 @@
+package {
+    default_team: "trendy_team_android_settings_app",
+    default_applicable_licenses: ["packages_apps_Settings_license"],
+}
+
+// Added automatically by a large-scale-change
+// See: http://go/android-license-faq
+license {
+    name: "packages_apps_Settings_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+java_library {
+    name: "settings-logtags",
+    srcs: ["src/**/*.logtags"],
+}
+
+genrule {
+    name: "statslog-settings-java-gen",
+    tools: ["stats-log-api-gen"],
+    cmd: "$(location stats-log-api-gen) --java $(out) --module settings" +
+        " --javaPackage com.android.settings.core.instrumentation --javaClass SettingsStatsLog",
+    out: ["com/android/settings/core/instrumentation/SettingsStatsLog.java"],
+}
+
+java_library {
+    name: "statslog-settings",
+    srcs: [
+        ":statslog-settings-java-gen",
+    ],
+}
+
+java_library {
+    name: "Settings-change-ids",
+    srcs: ["src/com/android/settings/ChangeIds.java"],
+    libs: [
+        "app-compat-annotations",
+    ],
+}
+
+android_library {
+    name: "Settings-core",
+    defaults: [
+        "SettingsLib-search-defaults",
+        "SettingsLintDefaults",
+        "SpaPrivilegedLib-defaults",
+    ],
+
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+        "InfinitySuite/src/**/*.java",
+        "InfinitySuite/src/**/*.kt",
+    ],
+    aaptflags: ["--extra-packages com.infinity.suite"],
+    exclude_srcs: [
+        "src/com/android/settings/biometrics/fingerprint2/lib/**/*.kt",
+    ],
+    javac_shard_size: 50,
+    use_resource_processor: true,
+    resource_dirs: [
+        "res",
+        "res-export", // for external usage
+        "res-product",
+        "InfinitySuite/res",
+    ],
+
+    asset_dirs: ["InfinitySuite/assets"],
+
+    optional_uses_libs: ["com.android.extensions.appfunctions"],
+    static_libs: [
+        // External dependencies
+        "androidx.compose.runtime_runtime-livedata",
+        "androidx.lifecycle_lifecycle-livedata-ktx",
+        "androidx.navigation_navigation-fragment-ktx",
+        "androidx.slice_slice-builders",
+        "androidx.slice_slice-core",
+        "androidx.slice_slice-view",
+        "androidx.window_window-java",
+        "gson",
+        "guava",
+
+        // Android internal dependencies
+        "BiometricsSharedLib",
+        "SystemUIUnfoldLib",
+        "WifiTrackerLib",
+        "android.companion.flags-aconfig-java",
+        "android.companion.virtualdevice.flags-aconfig-java",
+        "android.hardware.biometrics.flags-aconfig-java",
+        "android.hardware.dumpstate-V1-java",
+        "android.hardware.dumpstate-V1.0-java",
+        "android.hardware.dumpstate-V1.1-java",
+        "com_android_server_accessibility_flags_lib",
+        "net-utils-framework-common",
+        "notification_flags_lib",
+        "securebox",
+        "//frameworks/libs/systemui:com_android_systemui_shared_flags_lib",
+        "//frameworks/libs/systemui:msdl",
+        "WindowManager-Shell-shared-desktopMode",
+
+        // Settings dependencies
+        "FingerprintManagerInteractor",
+        "MediaDrmSettingsFlagsLib",
+        "Settings-change-ids",
+        "SettingsLib",
+        "SettingsLibActivityEmbedding",
+        "SettingsLibService",
+        "aconfig_settings_flags_lib",
+        "accessibility_settings_flags_lib",
+        "contextualcards",
+        "development_settings_flag_lib",
+        "factory_reset_flags_lib",
+        "settings-protos-lite",
+        "fuelgauge-protos-lite",
+        "settings-logtags",
+        "statslog-settings",
+        "VendorSupport-preference",
+        "androidx.dynamicanimation_dynamicanimation",
+        "kotlin-stdlib",
+        "setupdesign-lottie-loading-layout",
+        "device_policy_aconfig_flags_lib",
+        "keyboard_flags_lib",
+        "com_android_systemui_flags_lib",
+        "settings_connectivity_flags_lib",
+        "Spa-search",
+
+        // app function dependencies
+        "androidx.appsearch_appsearch",
+        "androidx.appsearch_appsearch-builtin-types",
+        "com.android.extensions.appfunctions.impl",
+        "device-state-schema",
+
+        "VendorSupport-preference",
+        "org.lineageos.platform.internal",
+        "LineagePreferenceLib",
+        "SystemUISharedLib",
+        "tensorflowlite_java",
+        "tflite_support_java",
+        "tensorflow-lite-gpu",
+        "tensorflow-lite-gpu-api",
+    ],
+
+    plugins: [
+        "SettingsLibMetadata-processor",
+        "androidx.room_room-compiler-plugin",
+    ],
+
+    errorprone: {
+        extra_check_modules: ["//external/nullaway:nullaway_plugin"],
+        javacflags: [
+            "-XepOpt:NullAway:AnnotatedPackages=com.android.settings",
+        ],
+    },
+
+    libs: [
+        "framework-virtualization.stubs.system",
+        "telephony-common",
+        "ims-common",
+    ],
+    flags_packages: [
+        "aconfig_settings_flags",
+        "aconfig_settingslib_flags",
+        "android.app.flags-aconfig",
+        "android.app.supervision.flags-aconfig",
+        "android.provider.flags-aconfig",
+        "android.security.flags-aconfig",
+        "android.view.contentprotection.flags-aconfig",
+        "device_policy_aconfig_flags",
+        "keyboard_flags",
+    ],
+}
+
+platform_compat_config {
+    name: "settings-platform-compat-config",
+    src: ":Settings-change-ids",
+    system_ext_specific: true,
+}
+
+// Build the Settings APK
+android_app {
+    name: "Settings",
+    defaults: [
+        "platform_app_defaults",
+        "SpaPrivilegedLib-defaults",
+    ],
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
+    required: [
+        "privapp_whitelist_com.android.settings",
+        "settings-platform-compat-config",
+    ],
+    static_libs: ["Settings-core"],
+    uses_libs: ["org.apache.http.legacy"],
+    use_resource_processor: true,
+    resource_dirs: [],
+    jni_libs: [
+        "libtensorflowlite_jni",
+        "libtensorflowlite_gpu_jni",
+    ],
+    aaptflags: [
+        "-0 .tflite",
+    ],
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+    flags_packages: [
+        "android.app.flags-aconfig",
+    ],
+}
+
+android_library_import {
+    name: "contextualcards",
+    aars: ["libs/contextualcards.aar"],
+}
+
+android_library_import {
+    name: "device-state-schema",
+    aars: ["libs/appfunctions_schema_androidx_archive.aar"],
+}
+
+filegroup {
+    name: "Settings_proguard_flags",
+    srcs: ["proguard.flags"],
+}

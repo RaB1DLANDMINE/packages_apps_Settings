@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     根据 Apache License, Version 2.0 (以下简称 "许可证") 授权;
+     除非符合许可证，否则不得使用此文件。
+     您可以在以下网址获取许可证副本：
+          http://www.apache.org/licenses/LICENSE-2.0
+     除非适用法律要求或书面同意，否则按"原样"分发的软件
+     没有任何明示或暗示的保证或条件。
+     请参阅许可证了解特定语言的管理权限和限制。
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- 智能 5G -->
+    <string name="smart_5g_title">智能 5G</string>
+    <string name="smart_5g_summary">自动在 5G 和 4G 之间切换以减少电池消耗</string>
+
+    <!-- 真实显示引擎 -->
+    <string name="display_engine_category">显示引擎</string>
+    <string name="display_engine_mode_title">真实显示引擎</string>
+    <string name="x_reality_engine_mode_title">X-Reality 引擎</string>
+    <string name="triluminous_display_mode_title">特丽魅彩显示</string>
+    <string name="vivid_engine_mode_title">鲜艳显示</string>
+    <string name="display_engine_default">默认</string>
+    <string name="display_engine_mode_footer_text">灵感来自索尼的 Bravia/X-Reality 引擎，显示引擎具有鲜艳模式以增强亮度和色彩饱和度，以及 X-Reality 模式以改善细节和色彩准确性。</string>
+   
+    <!-- 双击唤醒 -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击查看手机</string>
+    <string name="doze_double_tap_summary">通过双击脉冲通知</string>
+
+    <!-- 关于手机 -->
+    <string name="text_processor">处理器</string>
+    <string name="text_display">显示</string>
+    <string name="text_battery">电池</string>
+    <string name="text_camera">相机</string>
+    <string name="text_ram_">RAM：</string>
+    <string name="text_rom_">ROM：</string>
+    <string name="text_maintainer">维护者</string>
+    <string name="text_kernel_version">内核</string>
+    <string name="official_build_suffix">- 官方</string>
+    <string name="unofficial_build_suffix">- 非官方</string>
+    <string name="ram_active_label">活跃</string>
+
+     <!-- 仪表板消息 -->
+      <string name="dashboard_morning1">积极开始新的一天！</string>
+      <string name="dashboard_morning2">太阳升起来了！</string>
+      <string name="dashboard_morning3">美好的早晨</string>
+      <string name="dashboard_morning4">又是新的一天！</string>
+      <string name="dashboard_morning5">新的一天</string>
+      <string name="dashboard_morning_greeting1">早上好</string>
+      <string name="dashboard_morning_greeting2">日安</string>
+      <string name="dashboard_noon1">享受生活！</string>
+      <string name="dashboard_noon2">享受日落</string>
+      <string name="dashboard_noon3">欢迎回家</string>
+      <string name="dashboard_noon4">享受这一天！</string>
+      <string name="dashboard_noon5">欢迎回来</string>
+      <string name="dashboard_noon_greeting1">下午好</string>
+      <string name="dashboard_early_night1">夜晚来临！</string>
+      <string name="dashboard_early_night2">晚餐时间！</string>
+      <string name="dashboard_early_night_greeting1">晚上好</string>
+      <string name="dashboard_night3">甜美的梦！</string>
+      <string name="dashboard_night4">该睡觉了！</string>
+      <string name="dashboard_night5">睡个好觉！</string>
+      <string name="dashboard_night_greetings1">晚安</string>
+      <string name="dashboard_midnight1">享受宁静</string>
+      <string name="dashboard_midnight2">无限的爱！</string>
+      <string name="dashboard_midnight3">睡一会儿吧</string>
+      <string name="dashboard_midnight4">休息一下</string>
+      <string name="dashboard_midnight5">睡得晚？</string>
+      <string name="dashboard_random1">嘿         </string>
+      <string name="dashboard_random2">你好       </string>
+      <string name="dashboard_random3">问候     </string>
+      <string name="dashboard_random4">美好的一天    </string>
+      <string name="dashboard_random5">欢迎     </string>
+      <string name="dashboard_random6">怎么了  </string>
+      <string name="dashboard_random_greetings1">尝试寻找一些彩蛋！</string>
+      <string name="dashboard_random_greetings2">无限可能！</string>
+      <string name="dashboard_random_greetings3">你探索过 Infinity 了吗？</string>
+      <string name="dashboard_random_greetings4">享受你的一天！</string>
+      <string name="settings_random1">在找什么？</string>
+      <string name="settings_random2">寻找，你就会看见</string>
+      <string name="settings_random3">寻求，你就会找到</string>
+      <string name="settings_random4">搜索无限</string>
+      <string name="settings_random5">搜索设置</string>
+      <string name="settings_random6">敢于梦想，敢于失败！</string>
+      <string name="default_user">用户</string>
+
+    <!-- Infinity 套件 -->
+     <string name="infinity_suite_dash_title">Infinity 套件</string>
+     <string name="infinity_suite_summary">进一步个性化您的设备</string>
+
+    <string name="gms_services_title">Google 服务</string>
+    <string name="gms_services_summary">Google 服务和偏好设置</string>
+    <string name="wellbeing_title">数字健康</string>
+    <string name="wellbeing_summary">数字健康和家长控制</string>
+
+    <!-- 睡眠模式 -->
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_summary_on">开 / <xliff:g name="auto_mode_summary" example="从不自动关闭">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">关 / <xliff:g name="auto_mode_summary" example="从不自动开启">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">铃声模式</string>
+    <string name="sleep_mode_ringer_off_title">不更改</string>
+    <string name="sleep_mode_ringer_vibrate_title">振动</string>
+    <string name="sleep_mode_ringer_dnd_title">请勿打扰</string>
+    <string name="sleep_mode_ringer_silent_title">静音</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">从日落到自定义时间开启</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">从自定义时间到日出开启</string>
+    <string name="sleep_mode_toggles_title">开关</string>
+    <string name="sleep_mode_wifi_toggle_title">关闭 Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">睡眠模式开启时禁用 Wi-Fi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">关闭蓝牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">睡眠模式开启时禁用蓝牙</string>
+    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
+    <string name="sleep_mode_cellular_toggle_summary">睡眠模式开启时禁用移动数据</string>
+    <string name="sleep_mode_location_toggle_title">关闭位置</string>
+    <string name="sleep_mode_location_toggle_summary">睡眠模式开启时禁用位置</string>
+    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
+    <string name="sleep_mode_sensors_toggle_summary">睡眠模式开启时禁用传感器</string>
+    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务，以帮助在您睡觉时节省电池电量并使手机静音。</string>
+    <!-- 显示设置屏幕，手动模式的激活按钮操作。[字符限制=40] -->
+    <string name="night_display_activation_on_manual">立即开启</string>
+    <!-- 显示设置屏幕，手动模式的停用按钮操作。[字符限制=40] -->
+    <string name="night_display_activation_off_manual">立即关闭</string>
+    <!-- 显示设置屏幕，日落至日出计划的激活按钮操作 [字符限制=40] -->
+    <string name="night_display_activation_on_twilight">开启直至日出</string>
+    <!-- 显示设置屏幕，日落至日出计划的停用按钮操作 [字符限制=40] -->
+    <string name="night_display_activation_off_twilight">关闭直至日落</string>
+    <!-- 显示设置屏幕，自定义计划的激活按钮操作 [字符限制=40] -->
+    <string name="night_display_activation_on_custom">开启直至 <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- 显示设置屏幕，自定义计划的停用按钮操作 [字符限制=40] -->
+    <string name="night_display_activation_off_custom">关闭直至 <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- WiFi 热点 -->
+    <string name="wifi_hotspot_client_manager_title">已连接设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出和管理连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">连接设备限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻止设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将从本设备断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 的连接并将其添加到阻止列表</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">取消阻止设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到此热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。可用时，已连接和已阻止的设备将在此列出。</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 个设备可连接到此热点</item>
+        <item quantity="one">最多 <xliff:g id="device_num">%1$d</xliff:g> 个设备可连接到此热点</item>
+    </plurals>
+
+    <!-- USB 配置 -->
+    <string name="usb_default_config_title">USB 配置</string>
+    <string name="usb_default_config_summary">选择通过 USB 连接到设备时的默认行为</string>
+
+    <string name="refresh_rate_title">刷新率</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (自适应)</string>
+    <string name="refresh_rate_vrr_title">自适应刷新率</string> 
+    <string name="refresh_rate_vrr_summary">显示空闲时自动降低刷新率以节省电量。可能导致某些显示器出现闪烁或色彩偏移</string> 
+    <string name="refresh_rate_footer">更高的刷新率使显示更流畅，但会增加功耗</string>
+    <string name="keywords_refresh_rate">刷新, 频率, 流畅, 峰值, 60赫兹, 90赫兹, 120赫兹, 144赫兹, 165赫兹</string>
+    <string name="peak_refresh_rate_summary">自动将刷新率从 60 提升到 <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz 以显示某些内容。会增加电池使用量。</string>
+
+    <!-- 通用 -->
+     <string name="copied_to_clipboard">已复制到剪贴板</string>
+     <string name="longpress_to_clipboard">长按以复制</string>
+
+    <!-- 无线电信息 -->
+    <string name="radio_info_title">无线电信息</string>
+
+<!-- Doze 设置 -->
+<string name="doze_pulse_on_pickup_title">拿起时脉冲</string>
+<string name="doze_pulse_on_pickup_summary">设备拿起时脉冲通知\n注意：需要启用抬起唤醒功能</string>
+<string name="doze_pulse_on_double_tap_title">双击时脉冲</string>
+<string name="doze_pulse_on_double_tap_summary">双击时脉冲通知\n注意：需要启用电容唤醒功能</string>
+<string name="doze_pulse_on_single_tap_title">点击时脉冲</string>
+<string name="doze_pulse_on_single_tap_summary">点击时脉冲通知\n注意：需要启用电容唤醒功能</string>
+
+<!-- 应用配置 -->
+<string name="per_app_config_empty_text">没有已安装的应用支持当前设置</string>
+
+<!-- 应用刷新率 -->
+<string name="per_app_refresh_rate_title">应用刷新率配置</string>
+<string name="per_app_refresh_rate_summary">为每个应用单独配置刷新率</string>
+<string name="per_app_refresh_rate_default">跟随系统</string>
+
+<!-- 屏幕刷新率 -->
+<string name="screen_refresh_rate_title">屏幕刷新率</string>
+<string name="min_refresh_rate_title">最低刷新率</string>
+<string name="max_refresh_rate_title">最高刷新率</string>
+<string name="battery_saver_refresh_rate_title">降低刷新率</string>
+<string name="battery_saver_refresh_rate_summary">当电池节省模式开启时，使用 60 Hz 屏幕刷新率以节省电量</string>
+<string name="battery_saver_refresh_rate_disabled_summary">极致刷新率已开启</string>
+
+<!-- 极致刷新率 -->
+<string name="extreme_refresh_rate_title">极致刷新率</string>
+<string name="extreme_refresh_rate_summary">强制所有应用使用最高刷新率</string>
+<string name="extreme_refresh_rate_warning">这将确保系统选择最高刷新率，忽略用户选择和应用首选项。需要特定刷新率的应用可能运行异常。</string>
+
+<!-- 确认对话框 -->
+<string name="confirm_before_enable_title">继续启用？</string>
+
+<!-- 模糊强度 -->
+<string name="blur_intensity_title">模糊强度</string>
+<string name="blur_intensity_summary" formatted="false">控制系统范围内的模糊效果强度。\n0% = 无模糊，100% = 系统默认，200% = 双倍强度。</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">覆盖 MockLocation 限制</string>
+    <string name="override_mock_location_summary">启用后，应用无法检测到位置正在被模拟</string>
+    <string name="override_mock_location_enabled">已启用</string>
+    <string name="override_mock_location_disabled">已禁用</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">增强 HDR 亮度</string>
+    <string name="hdr_display_summary">提高亮度并扩展高动态范围 (HDR) 图像和视频的色域和清晰度。HDR 内容将显得更明亮。这将增加电池使用量</string>
+    <string name="hdr_max_brightness_percent_title">HDR 亮度强度</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">为系统模糊使用玻璃模糊效果</string>
+    <string name="glass_blur_summary">将默认模糊效果替换为高级玻璃模糊效果\n⚠️ 在某些低端设备上可能会导致延迟或更高的电池消耗/温度。\n注意：此功能可能无法在所有设备上运行。</string>
+</resources>

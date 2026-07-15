@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">5G Inteligente</string>
+    <string name="smart_5g_summary">Alterna automaticamente entre 5G e 4G para reduzir o consumo de bateria</string>
+
+    <!-- Reality Display Engine -->
+    <string name="display_engine_category">Motor de Exibição</string>
+    <string name="display_engine_mode_title">Motor de Exibição Reality</string>
+    <string name="x_reality_engine_mode_title">Motor X-Reality</string>
+    <string name="triluminous_display_mode_title">Exibição Triluminos</string>
+    <string name="vivid_engine_mode_title">Exibição Vívida</string>
+    <string name="display_engine_default">Padrão</string>
+    <string name="display_engine_mode_footer_text">Inspirado no motor Bravia/X-Reality da Sony, o Motor de Exibição apresenta o modo Vívido para maior brilho e saturação de cores, e o modo X-Reality para melhor detalhe e precisão de cores.</string>
+   
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Toque duplo para verificar o telefone</string>
+    <string name="doze_double_tap_summary">Pulsa notificações com um toque duplo</string>
+
+    <!-- About phone -->
+    <string name="text_processor">Processador</string>
+    <string name="text_display">Tela</string>
+    <string name="text_battery">Bateria</string>
+    <string name="text_camera">Câmera</string>
+    <string name="text_ram_">RAM:</string>
+    <string name="text_rom_">ROM:</string>
+    <string name="text_maintainer">Maintainer</string>
+    <string name="text_kernel_version">Kernel</string>
+    <string name="official_build_suffix">- Oficial</string>
+    <string name="unofficial_build_suffix">- Não Oficial</string>
+    <string name="ram_active_label">Ativa</string>
+
+     <!-- Dashboard messages -->
+      <string name="dashboard_morning1">Comece seu dia positivamente!</string>
+      <string name="dashboard_morning2">O Sol já nasceu!</string>
+      <string name="dashboard_morning3">Uma bela manhã</string>
+      <string name="dashboard_morning4">Mais um dia para viver!</string>
+      <string name="dashboard_morning5">Um novo dia</string>
+      <string name="dashboard_morning_greeting1">Bom dia</string>
+      <string name="dashboard_morning_greeting2">Bom dia</string>
+      <string name="dashboard_noon1">Viva sua vida!</string>
+      <string name="dashboard_noon2">Aproveite o pôr do sol</string>
+      <string name="dashboard_noon3">Bem-vindo(a) a casa</string>
+      <string name="dashboard_noon4">Aproveite o dia!</string>
+      <string name="dashboard_noon5">Bem-vindo(a) de volta</string>
+      <string name="dashboard_noon_greeting1">Boa tarde</string>
+      <string name="dashboard_early_night1">A noite está chegando!</string>
+      <string name="dashboard_early_night2">Hora do jantar!</string>
+      <string name="dashboard_early_night_greeting1">Boa noite</string>
+      <string name="dashboard_night3">Doces sonhos!</string>
+      <string name="dashboard_night4">Hora de dormir agora!</string>
+      <string name="dashboard_night5">Durma bem!</string>
+      <string name="dashboard_night_greetings1">Boa noite</string>
+      <string name="dashboard_midnight1">Aproveite o silêncio</string>
+      <string name="dashboard_midnight2">Amor Infinito!</string>
+      <string name="dashboard_midnight3">Durma um pouco</string>
+      <string name="dashboard_midnight4">Descanse</string>
+      <string name="dashboard_midnight5">Dormindo tarde?</string>
+      <string name="dashboard_random1">Ei         </string>
+      <string name="dashboard_random2">Olá       </string>
+      <string name="dashboard_random3">Saudações     </string>
+      <string name="dashboard_random4">Bom dia    </string>
+      <string name="dashboard_random5">Bem-vindo(a)     </string>
+      <string name="dashboard_random6">E aí?  </string>
+      <string name="dashboard_random_greetings1">Tente encontrar alguns easter eggs!</string>
+      <string name="dashboard_random_greetings2">Seja Infinito!</string>
+      <string name="dashboard_random_greetings3">Você já explorou o Infinity?</string>
+      <string name="dashboard_random_greetings4">Aproveite seu dia!</string>
+      <string name="settings_random1">Procurando por algo?</string>
+      <string name="settings_random2">Procure e você verá</string>
+      <string name="settings_random3">Busque e você encontrará</string>
+      <string name="settings_random4">Pesquise Infinite</string>
+      <string name="settings_random5">Pesquisar configurações</string>
+      <string name="settings_random6">Sonhe alto e ouse falhar!</string>
+      <string name="default_user">Usuário</string>
+
+    <!-- Infinity Suite -->
+     <string name="infinity_suite_dash_title">Infinity Suite</string>
+     <string name="infinity_suite_summary">Personalize ainda mais seu dispositivo</string>
+
+    <string name="gms_services_title">Serviços Google</string>
+    <string name="gms_services_summary">Serviços e preferências do Google</string>
+    <string name="wellbeing_title">Bem-estar digital</string>
+    <string name="wellbeing_summary">Bem-estar digital e controles parentais</string>
+
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo Sono</string>
+    <string name="sleep_mode_summary_on">Ligado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desligado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_off_title">Não alterar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrar</string>
+    <string name="sleep_mode_ringer_dnd_title">Não Perturbe</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Liga do pôr do sol até um horário personalizado</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Liga de um horário personalizado até o nascer do sol</string>
+    <string name="sleep_mode_toggles_title">Alternâncias</string>
+    <string name="sleep_mode_wifi_toggle_title">Desligar Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativa o Wi-Fi quando o Modo Sono é ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desligar Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativa o Bluetooth quando o Modo Sono é ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desligar Dados móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativa os Dados móveis quando o Modo Sono é ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desligar Localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativa a Localização quando o Modo Sono é ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desligar Sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativa os Sensores quando o Modo Sono é ativado</string>
+    <string name="sleep_mode_display_text">O Modo Sono permite desativar certos serviços para ajudar a economizar bateria e silenciar seu telefone enquanto você dorme.</string>
+    <!-- Display settings screen, activation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_manual">Ligar agora</string>
+    <!-- Display settings screen, deactivation button action for manual mode. [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_manual">Desligar agora</string>
+    <!-- Display settings screen, activation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_twilight">Ligar até o nascer do sol</string>
+    <!-- Display settings screen, deactivation button action for sunset-to-sunrise schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_twilight">Desligar até o pôr do sol</string>
+    <!-- Display settings screen, activation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_on_custom">Ligar até <xliff:g name="time" example="6 AM">%1$s</xliff:g></string>
+    <!-- Display settings screen, deactivation button action for custom schedule [CHAR LIMIT=40] -->
+    <string name="night_display_activation_off_custom">Desligar até <xliff:g name="time" example="10 PM">%1$s</xliff:g></string>
+
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos Bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos Conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação irá desconectar \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e adicioná-lo à lista de bloqueios</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" poderá se conectar a este ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente está disponível no momento. Dispositivos conectados e bloqueados serão listados aqui quando disponíveis.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="one">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivo pode se conectar a este ponto de acesso</item>
+        <item quantity="other">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivos podem se conectar a este ponto de acesso</item>
+    </plurals>
+
+    <!-- USB configuration -->
+    <string name="usb_default_config_title">Configuração USB</string>
+    <string name="usb_default_config_summary">Escolha o comportamento padrão ao conectar a um dispositivo via USB</string>
+
+    <string name="refresh_rate_title">Taxa de atualização</string>
+    <string name="refresh_rate_summary_vrr_off">%d Hz</string> 
+    <string name="refresh_rate_summary_vrr_on">%d Hz (Adaptativa)</string>
+    <string name="refresh_rate_vrr_title">Taxa de atualização adaptativa</string> 
+    <string name="refresh_rate_vrr_summary">Reduz automaticamente a taxa de atualização quando a tela está ociosa, para economizar energia. Pode causar cintilação ou mudança de cor em certas telas</string> 
+    <string name="refresh_rate_footer">Uma taxa de atualização mais alta torna a tela mais suave, mas aumenta o consumo de energia</string>
+    <string name="keywords_refresh_rate">atualização, taxa, suave, pico, 60hz, 90hz, 120hz, 144hz, 165hz</string>
+    <string name="peak_refresh_rate_summary">Aumenta automaticamente a taxa de atualização de 60 para <xliff:g name="refresh_rate" example="120">%1$s</xliff:g> Hz para alguns conteúdos. Aumenta o uso da bateria.</string>
+
+    <!-- General -->
+     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+     <string name="longpress_to_clipboard">Pressione longo para copiar</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Informações de rádio</string>
+
+<!-- Doze settings -->
+    <string name="doze_pulse_on_pickup_title">Pulsar ao levantar</string>
+    <string name="doze_pulse_on_pickup_summary">Pulsa notificações ao levantar o dispositivo\nNota: Requer o recurso levantar para acionar ativado</string>
+    <string name="doze_pulse_on_double_tap_title">Pulsar no toque duplo</string>
+    <string name="doze_pulse_on_double_tap_summary">Pulsa notificações no toque duplo\nNota: Requer o recurso tocar para acionar ativado</string>
+    <string name="doze_pulse_on_single_tap_title">Pulsar no toque</string>
+    <string name="doze_pulse_on_single_tap_summary">Pulsa notificações no toque único\nNota: Requer o recurso tocar para acionar ativado</string>
+
+    <!-- Per-app configs -->
+    <string name="per_app_config_empty_text">Nenhum app instalado suporta as configurações atuais</string>
+
+    <!-- Per-app refresh rate -->
+    <string name="per_app_refresh_rate_title">Config. de taxa de atualização por app</string>
+    <string name="per_app_refresh_rate_summary">Configurar a taxa de atualização individualmente para cada app</string>
+    <string name="per_app_refresh_rate_default">Seguir sistema</string>
+
+    <!-- Screen refresh rate -->
+    <string name="screen_refresh_rate_title">Taxa de atualização da tela</string>
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reduzir taxa de atualização</string>
+    <string name="battery_saver_refresh_rate_summary">Usar 60 Hz de taxa de atualização da tela para economizar energia quando o Modo de Economia de Bateria estiver ativo</string>
+    <string name="battery_saver_refresh_rate_disabled_summary">Taxa de atualização extrema está ativa</string>
+
+    <!-- Extreme refresh rate -->
+    <string name="extreme_refresh_rate_title">Taxa de atualização extrema</string>
+    <string name="extreme_refresh_rate_summary">Força a maior taxa de atualização para todos os apps</string>
+    <string name="extreme_refresh_rate_warning">Isso garantirá que o sistema selecione a maior taxa de atualização, ignorando as opções selecionadas pelo usuário e preferidas pelo app. Apps que exigem uma taxa de atualização específica podem funcionar de forma anormal.</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_before_enable_title">Continuar para ativar?</string>
+
+    <!-- Blur intensity -->
+    <string name="blur_intensity_title">Intensidade do desfoque</string>
+    <string name="blur_intensity_summary" formatted="false">Controla a intensidade dos efeitos de desfoque em todo o sistema.\n0% = sem desfoque, 100% = padrão do sistema, 200% = intensidade dupla.</string>
+
+    <!-- Override Mock Location restriction -->
+    <string name="override_mock_location_title">Substituir restrição de MockLocation</string>
+    <string name="override_mock_location_summary">Quando ativado, os aplicativos não podem detectar que a localização está sendo simulada</string>
+    <string name="override_mock_location_enabled">Ativado</string>
+    <string name="override_mock_location_disabled">Desativado</string>
+
+    <!-- HDR Display -->
+    <string name="hdr_display_title">Brilho HDR aprimorado</string>
+    <string name="hdr_display_summary">Aumentar o brilho e expandir a gama de cores e nitidez em imagens e vídeos HDR (High Dynamic Range). O conteúdo HDR aparecerá mais brilhante. Isso aumentará o consumo da bateria</string>
+    <string name="hdr_max_brightness_percent_title">Intensidade do brilho HDR</string>
+
+    <!-- Glass Blur -->
+    <string name="glass_blur_title">Usar efeito Glass Blur para desfoque do sistema</string>
+    <string name="glass_blur_summary">Substituir o efeito de desfoque padrão pelo efeito de desfoque de vidro premium\n⚠️ Pode causar atraso ou maior consumo de bateria/temperatura em certos dispositivos de baixo desempenho.\nNOTA:Este recurso pode não funcionar em todos os dispositivos.</string>
+</resources>

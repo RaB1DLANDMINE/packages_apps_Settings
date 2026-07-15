@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright 2024-25 Project Infinity X
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <!-- Custom colors-->
+    <color name="pastel_blue">#4A97FF</color>
+    <color name="pastel_pink">#FF6B8E</color>
+    <color name="pastel_purple">#A375FF</color>
+    <color name="pastel_yellow">#FFC700</color>
+    <color name="pastel_green">#1DB180</color>
+    <color name="pastel_orange">#FF8F1A</color>
+    <color name="pastel_lime">#6AC732</color>
+    <color name="pastel_rose">#FF7AA8</color>
+    <color name="pastel_teal">#2AD5C2</color>
+    <color name="pastel_coral">#FF8066</color>
+</resources>
