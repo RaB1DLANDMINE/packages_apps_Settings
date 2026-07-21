@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 Project Infinity-X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Haptic style -->
+    <string-array name="haptic_profile_entries">
+        <item>Default</item>
+        <item>Crisp</item>
+        <item>Gentle</item>
+    </string-array>
+    <string-array name="haptic_profile_values" translatable="false">
+        <item>richtap</item>
+        <item>crisp</item>
+        <item>gentle</item>
+    </string-array>
+</resources>

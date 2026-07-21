@@ -163,4 +163,7 @@
     <string name="gms_services_summary">Google services and preferences</string>
     <string name="wellbeing_title">Digital wellbeing</string>
     <string name="wellbeing_summary">Digital wellbeing and parental controls</string>
+
+    <!-- Haptic style -->
+    <string name="haptic_profile_title">Haptic style</string>
 </resources>

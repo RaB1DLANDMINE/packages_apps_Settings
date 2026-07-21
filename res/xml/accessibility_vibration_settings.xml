@@ -86,6 +86,14 @@
             app:keywords="@string/keywords_keyboard_vibration"
             app:controller="com.android.settings.accessibility.KeyboardVibrationTogglePreferenceController"/>
 
+        <com.infinity.support.preferences.SystemPropertyListPreference
+            android:key="persist.sys.haptic_profile"
+            android:title="@string/haptic_profile_title"
+            android:entries="@array/haptic_profile_entries"
+            android:entryValues="@array/haptic_profile_values"
+            android:summary="%s"
+            android:defaultValue="richtap" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
