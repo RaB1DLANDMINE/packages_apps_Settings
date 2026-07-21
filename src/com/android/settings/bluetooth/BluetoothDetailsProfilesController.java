@@ -69,6 +69,7 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
         implements Preference.OnPreferenceClickListener,
         LocalBluetoothProfileManager.ServiceListener {
     public static final String HIGH_QUALITY_AUDIO_PREF_TAG = "A2dpProfileHighQualityAudio";
+    public static final String LDAC_AUDIO_PREF_TAG = "A2dpProfileLdacAudio";
 
     private static final String TAG = "BtDetailsProfilesCtrl";
 
@@ -239,6 +240,17 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
                     highQualityPref.setEnabled(!mCachedDevice.isBusy());
                 } else {
                     highQualityPref.setVisible(false);
+                }
+            }
+            TwoStatePreference ldacPref = mProfilesContainer.findPreference(LDAC_AUDIO_PREF_TAG);
+            if (ldacPref != null) {
+                if (a2dp.isEnabled(device) && a2dp.isHighQualityAudioEnabled(device)
+                        && a2dp.supportsLdacAudio(device)) {
+                    ldacPref.setVisible(true);
+                    ldacPref.setChecked(a2dp.isLdacAudioEnabled(device));
+                    ldacPref.setEnabled(!mCachedDevice.isBusy());
+                } else {
+                    ldacPref.setVisible(false);
                 }
             }
         }
@@ -463,6 +475,20 @@ public class BluetoothDetailsProfilesController extends BluetoothDetailsControll
                 return true;
             });
             mProfilesContainer.addPreference(highQualityAudioPref);
+        }
+        if (a2dp.isProfileReady()) {
+            TwoStatePreference ldacAudioPref = new SwitchPreferenceCompat(
+                    mProfilesContainer.getContext());
+            ldacAudioPref.setKey(LDAC_AUDIO_PREF_TAG);
+            ldacAudioPref.setTitle(R.string.bluetooth_profile_a2dp_ldac);
+            ldacAudioPref.setSummary(R.string.bluetooth_profile_a2dp_ldac_summary);
+            ldacAudioPref.setVisible(false);
+            ldacAudioPref.setOnPreferenceClickListener(clickedPref -> {
+                boolean enable = ((TwoStatePreference) clickedPref).isChecked();
+                a2dp.setLdacAudioEnabled(mCachedDevice.getDevice(), enable);
+                return true;
+            });
+            mProfilesContainer.addPreference(ldacAudioPref);
         }
     }
 

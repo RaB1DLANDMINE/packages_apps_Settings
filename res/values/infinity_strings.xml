@@ -166,4 +166,8 @@
 
     <!-- Haptic style -->
     <string name="haptic_profile_title">Haptic style</string>
+
+    <!-- Bluetooth per-device LDAC preference -->
+    <string name="bluetooth_profile_a2dp_ldac">LDAC</string>
+    <string name="bluetooth_profile_a2dp_ldac_summary">Always use the LDAC codec with this device when available</string>
 </resources>
