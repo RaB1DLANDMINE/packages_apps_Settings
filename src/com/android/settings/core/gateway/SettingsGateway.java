@@ -230,6 +230,8 @@ import com.infinity.settings.display.refreshrate.ScreenRefreshRateFragment;
 
 import com.infinity.suite.fragments.SmartPixels;
 
+import com.infinity.suite.fragments.ButtonSettings;
+
 import com.infinity.suite.InfinitySuite;
 
 public class SettingsGateway {
@@ -447,6 +449,7 @@ public class SettingsGateway {
             SmartPixels.class.getName(),
             PrivateDnsSettings.class.getName(),
             InfinitySuite.class.getName(),
+            ButtonSettings.class.getName(),
             ScreenRefreshRateFragment.class.getName(),
             SleepMode.class.getName()
     };

@@ -23,6 +23,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Glass UI (Settings): animated film-grain drawn behind everything; shown only when the
+         glass_ui_settings toggle is on (see SettingsHomepageActivity). -->
+    <com.android.settings.homepage.GlassNoiseView
+        android:id="@+id/glass_settings_noise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
     <com.android.settings.edgeeffect.SpringNestScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -16,8 +16,11 @@
 
 package com.android.settings.core;
 
+import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.UserHandle;
+import android.provider.Settings;
 import android.view.View;
 
 import androidx.annotation.DrawableRes;
@@ -172,5 +175,65 @@ public class RoundCornerPreferenceAdapter extends PreferenceGroupAdapter {
 
         View v = holder.itemView;
         v.setBackgroundResource(backgroundRes);
+        applyGlassIfEnabled(v);
+    }
+
+    // Glass UI (Settings): when glass_ui_settings is on, make the card background translucent so
+    // the frosted/animated backdrop shows through. No-op (normal opaque card) when off. Safe on
+    // recycling: setBackgroundResource() is always called first, so the alpha never accumulates.
+    private static final int GLASS_SETTINGS_CARD_ALPHA = 0xA6; // ~65%, lets the colour scroll show
+    // Sheen stroke on glass cards. Bright (~80%) so it stays visible after the card's alpha
+    // dimming (~65%) knocks it down to a clean ~52% white rim, matching the QS glass tiles.
+    private static final int GLASS_SETTINGS_SHEEN_COLOR = 0xCCFFFFFF;
+
+    // Unwrap Ripple/Layer/Inset/Scale drawables to the underlying GradientDrawable, so the sheen
+    // stroke can be applied to the shape that actually defines the card's rounded corners.
+    private static android.graphics.drawable.GradientDrawable findGradientDrawable(Drawable d) {
+        if (d instanceof android.graphics.drawable.GradientDrawable) {
+            return (android.graphics.drawable.GradientDrawable) d;
+        }
+        if (d instanceof android.graphics.drawable.LayerDrawable) {
+            final android.graphics.drawable.LayerDrawable ld =
+                    (android.graphics.drawable.LayerDrawable) d;
+            for (int i = 0; i < ld.getNumberOfLayers(); i++) {
+                final android.graphics.drawable.GradientDrawable found =
+                        findGradientDrawable(ld.getDrawable(i));
+                if (found != null) {
+                    return found;
+                }
+            }
+        }
+        if (d instanceof android.graphics.drawable.DrawableWrapper) {
+            return findGradientDrawable(
+                    ((android.graphics.drawable.DrawableWrapper) d).getDrawable());
+        }
+        return null;
+    }
+
+    protected void applyGlassIfEnabled(View v) {
+        if (v == null) {
+            return;
+        }
+        final boolean on = Settings.System.getIntForUser(v.getContext().getContentResolver(),
+                "glass_ui_settings", 0, UserHandle.USER_CURRENT) != 0;
+        if (!on) {
+            return;
+        }
+        final Drawable bg = v.getBackground();
+        if (bg != null) {
+            final Drawable mutated = bg.mutate();
+            mutated.setAlpha(GLASS_SETTINGS_CARD_ALPHA);
+            // Glass UI: the card background is often wrapped (Ripple/Layer/Inset), so unwrap to
+            // the real GradientDrawable and stroke IT - that way the sheen exactly follows each
+            // card's own corners (including the different radii of grouped top/middle/bottom
+            // cards). The stroke is brightened to survive the card's alpha dimming.
+            final float density = v.getResources().getDisplayMetrics().density;
+            final android.graphics.drawable.GradientDrawable gd = findGradientDrawable(mutated);
+            if (gd != null) {
+                gd.setStroke(Math.max(1, Math.round(1.2f * density)), GLASS_SETTINGS_SHEEN_COLOR);
+            }
+            v.setForeground(null);
+            v.setBackground(mutated);
+        }
     }
 }

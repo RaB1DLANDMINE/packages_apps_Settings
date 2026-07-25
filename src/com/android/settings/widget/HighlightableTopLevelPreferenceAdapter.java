@@ -220,6 +220,7 @@ public class HighlightableTopLevelPreferenceAdapter extends RoundCornerPreferenc
         final View v = holder.itemView;
         @DrawableRes int bgRes = getRoundCornerDrawableRes(position, true /*isSelected*/);
         v.setBackgroundResource(bgRes);
+        applyGlassIfEnabled(v);
         Context context = v.getContext();
         if (SettingsThemeHelper.isExpressiveTheme(context)) {
             // homepage preference title should change text appearance when it's selected
@@ -237,6 +238,7 @@ public class HighlightableTopLevelPreferenceAdapter extends RoundCornerPreferenc
         final View v = holder.itemView;
         @DrawableRes int bgRes = getRoundCornerDrawableRes(position, false /*isSelected*/);
         v.setBackgroundResource(bgRes);
+        applyGlassIfEnabled(v);
         Context context = v.getContext();
         if (SettingsThemeHelper.isExpressiveTheme(context)) {
             // recover homepage preference title when it's unselected

@@ -20,7 +20,7 @@
     android:id="@+id/app_bar_section"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?android:attr/colorBackground"
+    android:background="@android:color/transparent"
     android:orientation="vertical">
 
     <LinearLayout
@@ -49,12 +49,13 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/app_bar_search_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="@dimen/search_bar_container_top_padding"
         android:paddingBottom="@dimen/settingslib_expressive_space_extrasmall4"
-        android:background="?android:attr/colorBackground">
+        android:background="@android:color/transparent">
 
         <include layout="@layout/search_bar"/>
 

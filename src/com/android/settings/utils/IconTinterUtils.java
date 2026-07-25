@@ -90,7 +90,7 @@ public class IconTinterUtils {
     int iconStyle = Settings.System.getIntForUser(
                 context.getContentResolver(),
         ICON_STYLE,
-        ICON_STYLE_SOLID_BG_WHITE_ICON,
+        ICON_STYLE_ACCENT_OUTLINE_ACCENT_ICON,
                 UserHandle.USER_CURRENT);
                 
         boolean randomColors = Settings.System.getIntForUser(

@@ -80,6 +80,18 @@
             settings:highlightableMenuKey="@string/menu_key_display"
             settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+        <com.android.settings.widget.HomepagePreference
+            android:fragment="com.infinity.suite.fragments.ButtonSettings"
+            android:icon="@drawable/ic_button"
+            android:key="top_level_plus_key"
+            android:order="-55"
+            android:title="@string/plus_key_title"
+            android:summary="@string/plus_key_summary">
+            <extra
+                android:name=":settings:fragment_args_key"
+                android:value="assist_key" />
+        </com.android.settings.widget.HomepagePreference>
+
         <com.android.settings.widget.RestrictedHomepagePreference
             android:icon="@drawable/ic_settings_wallpaper_filled"
             android:key="top_level_wallpaper"

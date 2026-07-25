@@ -36,8 +36,11 @@ import android.content.pm.UserInfo;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.content.res.Configuration;
+import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.os.Process;
 import android.os.UserHandle;
 import android.os.UserManager;
@@ -273,6 +276,10 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         initHomepageContainer();
         updateHomepageBackground();
+        updateGlassNoise();
+        getContentResolver().registerContentObserver(
+                android.provider.Settings.System.getUriFor(GLASS_UI_SETTINGS_KEY), false,
+                mGlassNoiseObserver);
         mLoadedListeners = new ArraySet<>();
 
         initSearchBarView();
@@ -371,6 +378,12 @@ public class SettingsHomepageActivity extends FragmentActivity implements
             mCallback = null;
             mSplitControllerAdapter = null;
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        getContentResolver().unregisterContentObserver(mGlassNoiseObserver);
+        super.onDestroy();
     }
 
     @Override
@@ -577,6 +590,67 @@ public class SettingsHomepageActivity extends FragmentActivity implements
         findViewById(android.R.id.content).setBackgroundColor(color);
         //Update search bar background
         findViewById(R.id.app_bar_container).setBackgroundColor(color);
+    }
+
+    // Glass UI (Settings): show the animated film-grain layer only while the toggle is on.
+    private static final String GLASS_UI_SETTINGS_KEY = "glass_ui_settings";
+
+    private final ContentObserver mGlassNoiseObserver =
+            new ContentObserver(new Handler(Looper.getMainLooper())) {
+                @Override
+                public void onChange(boolean selfChange) {
+                    updateGlassNoise();
+                }
+            };
+
+    private void updateGlassNoise() {
+        final View noise = findViewById(R.id.glass_settings_noise);
+        if (noise == null) {
+            return;
+        }
+        final boolean on = android.provider.Settings.System.getIntForUser(getContentResolver(),
+                GLASS_UI_SETTINGS_KEY, 0, UserHandle.USER_CURRENT) != 0;
+        noise.setVisibility(on ? View.VISIBLE : View.GONE);
+        // Glass UI: the content view doesn't extend under the navigation bar, leaving a black
+        // strip at the very bottom. Tint the window background dark-smoke under glass so that
+        // gap blends with the gradient's dark base instead of reading as pure black.
+        if (getWindow() != null) {
+            if (on) {
+                getWindow().setBackgroundDrawable(
+                        new android.graphics.drawable.ColorDrawable(0xFF0B0F14));
+                getWindow().setNavigationBarColor(android.graphics.Color.TRANSPARENT);
+            } else {
+                final android.util.TypedValue wtv = new android.util.TypedValue();
+                getTheme().resolveAttribute(android.R.attr.colorBackground, wtv, true);
+                getWindow().setBackgroundDrawable(
+                        new android.graphics.drawable.ColorDrawable(wtv.data));
+            }
+        }
+        // Glass UI: the header (title + search) normally paints an opaque colorBackground, which
+        // would clip the colour scroll at the top. Make those transparent under glass so the
+        // gradient runs full-bleed; restore the theme background when off.
+        final int headerBg;
+        if (on) {
+            headerBg = android.graphics.Color.TRANSPARENT;
+        } else {
+            final android.util.TypedValue tv = new android.util.TypedValue();
+            getTheme().resolveAttribute(android.R.attr.colorBackground, tv, true);
+            headerBg = tv.data;
+        }
+        for (int id : new int[] {R.id.app_bar, R.id.app_bar_container,
+                R.id.app_bar_section, R.id.app_bar_search_container}) {
+            final View v = findViewById(id);
+            if (v != null) {
+                v.setBackgroundColor(headerBg);
+                // Material AppBarLayout also paints a status-bar foreground scrim; clear it
+                // under glass so the colour scroll runs to the very top.
+                if (v instanceof com.google.android.material.appbar.AppBarLayout) {
+                    ((com.google.android.material.appbar.AppBarLayout) v)
+                            .setStatusBarForeground(on ? new android.graphics.drawable.ColorDrawable(
+                                    android.graphics.Color.TRANSPARENT) : null);
+                }
+            }
+        }
     }
 
     private void showSuggestionFragment(boolean scrollNeeded) {
