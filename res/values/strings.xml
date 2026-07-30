@@ -14958,4 +14958,12 @@
 
     <!-- String for talkback on the account avatar of the search bar.  [CHAR LIMIT=NONE] -->
     <string name="search_bar_account_avatar_content_description"></string>
+
+    <!-- Dolby Atmos top-level entry -->
+    <string name="top_level_dolby_title">Dolby Atmos</string>
+    <string name="top_level_dolby_summary">Spatial audio, profiles &amp; equalizer</string>
+
+    <!-- Plus Key top-level entry (strings were missing from the tree) -->
+    <string name="plus_key_title">Plus Key</string>
+    <string name="plus_key_summary">Customize the Plus Key action</string>
 </resources>
