@@ -102,6 +102,18 @@
             settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
         <com.android.settings.widget.HomepagePreference
+            android:icon="@drawable/ic_dolby_atmos"
+            android:key="top_level_dolby"
+            android:order="-48"
+            android:title="@string/top_level_dolby_title"
+            android:summary="@string/top_level_dolby_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="co.aospa.dolby.xiaomi"
+                android:targetClass="co.aospa.dolby.xiaomi.ui.DolbyActivity" />
+        </com.android.settings.widget.HomepagePreference>
+
+        <com.android.settings.widget.HomepagePreference
             android:fragment="com.android.settings.applications.AppDashboardFragment"
             android:icon="@drawable/ic_apps_filled"
             android:key="top_level_apps"
