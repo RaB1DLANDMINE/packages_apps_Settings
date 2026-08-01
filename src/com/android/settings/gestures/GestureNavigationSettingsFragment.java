@@ -295,16 +295,23 @@ public class GestureNavigationSettingsFragment extends DashboardFragment impleme
         mCurrentLefttWidth = (int) (mDefaultBackGestureInset * currentWidthScale);
 
         if (key == GESTURE_BACK_HEIGHT_KEY) {
-            mBackGestureInsetScales = mBackGestureHeightScales;
             initScale = Settings.System.getIntForUser(
                 getContext().getContentResolver(), settingsKey, 0, UserHandle.USER_CURRENT);
         }
 
+        // Resolve the scale table into a local: initialising the height slider must NOT
+        // reassign the shared mBackGestureInsetScales field, or the left/right edge change
+        // listeners (created on earlier calls, capturing this field) would later read the
+        // height table {0,1,2,3} instead of the inset table -- making "Low" (index 0) write a
+        // 0.0 inset scale, which zeroes the back-gesture width and kills the back gesture.
+        final float[] scales = key == GESTURE_BACK_HEIGHT_KEY
+                ? mBackGestureHeightScales : mBackGestureInsetScales;
+
         // Find the closest value to initScale
         float minDistance = Float.MAX_VALUE;
         int minDistanceIndex = -1;
-        for (int i = 0; i < mBackGestureInsetScales.length; i++) {
-            float d = Math.abs(mBackGestureInsetScales[i] - initScale);
+        for (int i = 0; i < scales.length; i++) {
+            float d = Math.abs(scales[i] - initScale);
             if (d < minDistance) {
                 minDistance = d;
                 minDistanceIndex = i;
@@ -314,7 +321,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment impleme
         pref.setSliderStateDescription(formatStateDescription(pref, minDistanceIndex));
         pref.setOnPreferenceChangeListener((p, v) -> {
             if (key != GESTURE_BACK_HEIGHT_KEY) {
-                final int width = (int) (mDefaultBackGestureInset * mBackGestureInsetScales[(int) v]);
+                final int width = (int) (mDefaultBackGestureInset * scales[(int) v]);
                 mIndicatorView.setIndicatorWidth(width, key == LEFT_EDGE_SEEKBAR_KEY);
                 if (key == LEFT_EDGE_SEEKBAR_KEY) {
                     mCurrentLefttWidth = width;
@@ -322,7 +329,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment impleme
                     mCurrentRightWidth = width;
                 }
             } else {
-                final int heightScale = (int) (mBackGestureInsetScales[(int) v]);
+                final int heightScale = (int) (scales[(int) v]);
                 mIndicatorView.setIndicatorHeightScale(heightScale);
                 // dont use updateViewLayout else it will animate
                 mWindowManager.removeView(mIndicatorView);
@@ -332,7 +339,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment impleme
                 mIndicatorView.setIndicatorWidth(mCurrentRightWidth, false);
                 mIndicatorView.setIndicatorWidth(mCurrentLefttWidth, true);
             }
-            final float scale = mBackGestureInsetScales[(int) v];
+            final float scale = scales[(int) v];
             if (key != GESTURE_BACK_HEIGHT_KEY) {
                 Settings.Secure.putFloatForUser(getContext().getContentResolver(),
                     settingsKey, scale, UserHandle.USER_CURRENT);
