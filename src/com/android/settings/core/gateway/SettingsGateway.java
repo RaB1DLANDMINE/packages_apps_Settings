@@ -121,6 +121,7 @@ import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
 import com.android.settings.fuelgauge.batteryusage.PowerUsageAdvanced;
 import com.android.settings.fuelgauge.batteryusage.PowerUsageSummary;
+import com.android.settings.fuelgauge.BypassChargeSettings;
 import com.android.settings.fuelgauge.sleepmode.SleepMode;
 import com.android.settings.gestures.ButtonNavigationSettingsFragment;
 import com.android.settings.gestures.DoubleTapPowerSettings;
@@ -451,7 +452,8 @@ public class SettingsGateway {
             InfinitySuite.class.getName(),
             ButtonSettings.class.getName(),
             ScreenRefreshRateFragment.class.getName(),
-            SleepMode.class.getName()
+            SleepMode.class.getName(),
+            BypassChargeSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

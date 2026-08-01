@@ -64,6 +64,20 @@
         android:title="@string/sleep_mode_title"
         android:fragment="com.android.settings.fuelgauge.sleepmode.SleepMode" />
 
+        <SwitchPreferenceCompat
+            android:key="aggressive_doze"
+            android:title="@string/aggressive_doze_title"
+            android:summary="@string/aggressive_doze_summary"
+            android:defaultValue="true"
+            settings:controller="com.android.settings.fuelgauge.AggressiveDozePreferenceController" />
+
+        <Preference
+            android:key="bypass_charge"
+            android:title="@string/bypass_charge_settings_title"
+            android:summary="@string/bypass_charge_settings_summary"
+            android:fragment="com.android.settings.fuelgauge.BypassChargeSettings"
+            settings:controller="com.android.settings.fuelgauge.BypassChargePreferenceController" />
+
         <Preference
             android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
             android:key="battery_saver_summary"

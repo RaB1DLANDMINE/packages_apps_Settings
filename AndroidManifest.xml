@@ -5824,6 +5824,15 @@
                 <action android:name="android.intent.action.SLEEP_MODE_TURN_OFF" />
             </intent-filter>
         </receiver>
+
+        <!-- Aggressive deep sleep: re-apply the idle profile on boot (default on) -->
+        <receiver android:name="com.android.settings.fuelgauge.AggressiveDozeBootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
         <activity android:name="Settings$SleepModeActivity"
             android:label="@string/sleep_mode_title"
             android:exported="true">

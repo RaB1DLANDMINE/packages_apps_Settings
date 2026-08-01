@@ -124,6 +124,17 @@
     <string name="override_mock_location_enabled">Enabled</string>
     <string name="override_mock_location_disabled">Disabled</string>
 
+    <!-- Aggressive deep sleep -->
+    <string name="aggressive_doze_title">Aggressive deep sleep</string>
+    <string name="aggressive_doze_summary">Enter deep Doze sooner and keep it there longer to save standby battery. Real-time (high-priority) notifications still come through; only low-priority background pings may arrive a little later.</string>
+
+    <!-- Bypass charging (per-app) -->
+    <string name="bypass_charge_settings_title">Bypass charging</string>
+    <string name="bypass_charge_settings_summary">Hold the battery while chosen apps are open</string>
+    <string name="bypass_charge_master_title">Use bypass charging</string>
+    <string name="bypass_charge_master_summary">While plugged in, pause charging and hold the battery steady whenever a selected app is in the foreground — cuts heat and wear during long sessions. Normal charging resumes when you leave the app. Real charging control settings are restored afterwards.</string>
+    <string name="bypass_charge_apps_category">Bypass for these apps</string>
+
     <!-- Sleep Mode -->
     <string name="sleep_mode_title">Sleep Mode</string>
     <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
